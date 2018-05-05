@@ -39,4 +39,3 @@ Then start `ipython -i ddpg2.py`, with python 3.6(working environment should hav
 - Delete unnecessary codes from the code base. (`farming_demo.py`, `ddpg2.py` files are just examples. They will be deleted after the related development is completed.)
 - Develop Keras-RL based parallel DDPG training code, using farming example codes from `farming_demo.py`, `ddpg2.py` and keras-rl example codes from osim-rl repository (https://github.com/stanfordnmbl/osim-rl/blob/ver1.5.5/scripts/example.py)
 - Develop SAC(Soft Actor Critics)[https://github.com/haarnoja/sac https://arxiv.org/abs/1801.01290] model compatible with Keras-RL interface so that features of keras-rl can be used and previously developed keras-rl based parallel DDPG training code can be used as a reference to develop keras-rl based SAC training code.
-- Train both agents(DDPG, SAC)
