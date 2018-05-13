@@ -19,7 +19,7 @@ Because of the following claims of the related paper:
 * [osim-rl-with-farming/farming_scripts](https://github.com/simitii/osim-rl/tree/ver1.5.5/farming_scripts) -> running multiple environments
 * [rlkit-with-farming](https://github.com/simitii/rlkit) -> train models using multiple environments
 
-## Getting All Source Codes
+## Getting All Source Code
 Run following command:
 ```
 git clone --recursive https://github.com/CMPE462-Spring2018-Bogazici/term-project-sak
