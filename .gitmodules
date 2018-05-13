@@ -1,0 +1,6 @@
+[submodule "osim-rl-with-farming"]
+	path = osim-rl-with-farming
+	url = https://github.com/simitii/osim-rl
+[submodule "rlkit-with-farming"]
+	path = rlkit-with-farming
+	url = https://github.com/simitii/rlkit
