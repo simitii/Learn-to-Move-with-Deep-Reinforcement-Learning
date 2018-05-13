@@ -14,8 +14,13 @@ Because of the following claims of the related paper:
 - Exploration capabilities
 - Speedy than DDPG which is the most used method for this challenge. 
 
+## Dealing with Environment Slowness Problem
+* Since the envirenment is very slow or computationally expensive, we do environment farming(running multiple environments parallel) for training.
+* [osim-rl/farming_scripts](./osim-rl/farming_scripts/) -> running multiple environments
+* [rlkit](./rlkit/) -> train models using multiple environments
+
 ## Plan
-- Develop training module
+- Develop training module - **DONE**
 - Train models(SAC, DDPG)
 - Get a lot of visual material about the perfomance of models
 - Write an IPython Notebook about the project
