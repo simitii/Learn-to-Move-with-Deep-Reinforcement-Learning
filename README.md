@@ -16,8 +16,8 @@ Because of the following claims of the related paper:
 
 ## Dealing with Environment Slowness Problem
 * Since the envirenment is very slow or computationally expensive, we do environment farming(running multiple environments parallel) for training.
-* [osim-rl/farming_scripts](./osim-rl/farming_scripts/) -> running multiple environments
-* [rlkit](./rlkit/) -> train models using multiple environments
+* [osim-rl-with-farming/farming_scripts](./osim-rl-with-farming/farming_scripts) -> running multiple environments
+* [rlkit-with-farming](./rlkit-with-farming/) -> train models using multiple environments
 
 ## Plan
 - Develop training module - **DONE**
