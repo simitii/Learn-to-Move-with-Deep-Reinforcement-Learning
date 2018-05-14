@@ -1,3 +1,6 @@
+import sys
+sys.settrace(None)
+
 """
 Run PyTorch Soft Actor Critic on HalfCheetahEnv.
 
