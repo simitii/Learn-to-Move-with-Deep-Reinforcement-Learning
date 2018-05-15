@@ -1,6 +1,3 @@
-import sys
-sys.settrace(None)
-
 """
 Run PyTorch Soft Actor Critic on HalfCheetahEnv.
 
@@ -15,6 +12,8 @@ from rlkit.launchers.launcher_util import setup_logger
 from rlkit.torch.sac.policies import TanhGaussianPolicy
 from rlkit.torch.sac.sac import SoftActorCritic
 from rlkit.torch.networks import FlattenMlp
+
+from rlkit.core import logger
 
 from rlkit.envs.farmer import farmer as Farmer
 
@@ -38,7 +37,10 @@ def acq_remote_env(farmer):
 
 
 def experiment(variant):
-    farmer = Farmer(farmlist_base)
+    logger.add_text_output('./d_text.txt')
+    logger.add_tabular_output('./d_tabular.txt')
+    logger.set_snapshot_dir('./snaps')
+    farmer = Farmer([('123.123.123.123', 1)])
     environment = acq_remote_env(farmer)
     env = NormalizedBoxEnv(environment)
 
@@ -93,8 +95,8 @@ if __name__ == "__main__":
             environment_farming=True,
             farmlist_base=farmlist_base,
 
-            save_replay_buffer=False,
-            save_algorithm=False,
+            save_replay_buffer=True,
+            save_algorithm=True,
             save_environment=True,
         ),
         net_size=300,
