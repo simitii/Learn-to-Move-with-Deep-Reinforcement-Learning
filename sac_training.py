@@ -19,7 +19,7 @@ from rlkit.envs.farmer import farmer as Farmer
 
 import traceback
 
-farmlist_base = [('123.123.123.123', 4)]
+farmlist_base = [('0.0.0.0', 34)]
 
 def acq_remote_env(farmer):
     # acquire a remote environment
@@ -40,7 +40,7 @@ def experiment(variant):
     logger.add_text_output('./d_text.txt')
     logger.add_tabular_output('./d_tabular.txt')
     logger.set_snapshot_dir('./snaps')
-    farmer = Farmer([('123.123.123.123', 1)])
+    farmer = Farmer([('0.0.0.0', 1)])
     environment = acq_remote_env(farmer)
     env = NormalizedBoxEnv(environment)
 
@@ -99,7 +99,7 @@ if __name__ == "__main__":
             save_algorithm=True,
             save_environment=True,
         ),
-        net_size=300,
+        net_size=64,
     )
     setup_logger('name-of-experiment', variant=variant)
     experiment(variant)
