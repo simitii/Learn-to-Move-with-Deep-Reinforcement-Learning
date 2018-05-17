@@ -1,6 +1,3 @@
-"""
-Example of running PyTorch implementation of DDPG on HalfCheetah.
-"""
 import gym
 
 from rlkit.envs.wrappers import NormalizedBoxEnv
@@ -14,6 +11,7 @@ from rlkit.torch.ddpg.ddpg import DDPG
 import rlkit.torch.pytorch_util as ptu
 
 from rlkit.envs.farmer import farmer as Farmer
+from rlkit.envs.farmer import set_farm_port
 
 from rlkit.core import logger
 
@@ -74,6 +72,12 @@ def experiment(variant):
 
 
 if __name__ == "__main__":
+    import sys
+    try:
+        farm_port = int(sys.argv[1])
+    except:
+        farm_port = 20099
+    set_farm_port(farm_port)
     # noinspection PyTypeChecker
     variant = dict(
         algo_params=dict(

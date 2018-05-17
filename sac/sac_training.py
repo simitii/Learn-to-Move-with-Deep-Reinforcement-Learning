@@ -16,6 +16,7 @@ from rlkit.torch.networks import FlattenMlp
 from rlkit.core import logger
 
 from rlkit.envs.farmer import farmer as Farmer
+from rlkit.envs.farmer import set_farm_port
 
 import traceback
 
@@ -77,6 +78,13 @@ def experiment(variant):
 
 
 if __name__ == "__main__":
+    import sys
+    try:
+        farm_port = int(sys.argv[1])
+    except:
+        farm_port = 20099
+    set_farm_port(farm_port)
+
     # noinspection PyTypeChecker
     variant = dict(
         algo_params=dict(
