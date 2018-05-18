@@ -42,8 +42,9 @@ def experiment(variant):
     logger.add_tabular_output('./d_tabular.txt')
     logger.set_snapshot_dir('./snaps')
     farmer = Farmer([('0.0.0.0', 1)])
-    environment = acq_remote_env(farmer)
-    env = NormalizedBoxEnv(environment)
+    remote_env = farmer.force_acq_env()
+    remote_env.set_spaces()
+    env = NormalizedBoxEnv(remote_env)
 
     obs_dim = int(np.prod(env.observation_space.shape))
     action_dim = int(np.prod(env.action_space.shape))

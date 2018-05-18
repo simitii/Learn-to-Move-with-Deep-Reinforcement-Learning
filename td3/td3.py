@@ -30,8 +30,9 @@ def experiment(variant):
     logger.set_snapshot_dir('./snaps')
 
     farmer = Farmer([('0.0.0.0', 1)])
-    environment = farmer.force_acq_env()
-    env = NormalizedBoxEnv(environment)
+    remote_env = farmer.force_acq_env()
+    remote_env.set_spaces()
+    env = NormalizedBoxEnv(remote_env)
 
     es = GaussianStrategy(
         action_space=env.action_space,

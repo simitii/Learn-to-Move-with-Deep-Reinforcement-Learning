@@ -23,8 +23,10 @@ def experiment(variant):
     logger.add_tabular_output('./d_tabular.txt')
     logger.set_snapshot_dir('./snaps')
     farmer = Farmer([('0.0.0.0', 1)])
-    environment = farmer.force_acq_env()
-    env = NormalizedBoxEnv(environment)
+
+    remote_env = farmer.force_acq_env()
+    remote_env.set_spaces()
+    env = NormalizedBoxEnv(remote_env)
 
     es = OUStrategy(action_space=env.action_space)
     obs_dim = env.observation_space.low.size
