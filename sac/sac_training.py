@@ -20,21 +20,7 @@ from rlkit.envs.farmer import set_farm_port
 
 import traceback
 
-farmlist_base = [('0.0.0.0', 34)]
-
-def acq_remote_env(farmer):
-    # acquire a remote environment
-    while True:
-        remote_env = farmer.acq_env()
-        if remote_env == False:  # no free environment
-            pass
-        else:
-            break
-    remote_env.set_spaces()
-    print('action space', remote_env.action_space)
-    print('observation space', remote_env.observation_space)
-    return remote_env
-
+farmlist_base = [('0.0.0.0', 15)]
 
 
 def experiment(variant):

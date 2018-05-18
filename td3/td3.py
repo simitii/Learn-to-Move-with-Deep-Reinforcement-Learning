@@ -44,17 +44,17 @@ def experiment(variant):
     qf1 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
-        hidden_sizes=[400, 300],
+        hidden_sizes=[256, 256],
     )
     qf2 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
-        hidden_sizes=[400, 300],
+        hidden_sizes=[256, 256],
     )
     policy = TanhMlpPolicy(
         input_size=obs_dim,
         output_size=action_dim,
-        hidden_sizes=[400, 300],
+        hidden_sizes=[256, 256],
     )
     exploration_policy = PolicyWrappedWithExplorationStrategy(
         exploration_strategy=es,
@@ -76,11 +76,11 @@ def experiment(variant):
 if __name__ == "__main__":
     variant = dict(
         algo_kwargs=dict(
-            num_epochs=200,
+            num_epochs=1000,
             num_steps_per_epoch=5000,
-            num_steps_per_eval=10000,
+            num_steps_per_eval=1000,
             max_path_length=1000,
-            batch_size=100,
+            batch_size=128,
             discount=0.995,
 
             environment_farming=True,
