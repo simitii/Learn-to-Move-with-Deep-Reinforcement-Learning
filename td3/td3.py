@@ -1,14 +1,20 @@
-import gym
+"""
+This should results in an average return of ~3000 by the end of training.
 
+Usually hits 3000 around epoch 80-100. Within a see, the performance will be
+a bit noisy from one epoch to the next (occasionally dips dow to ~2000).
+
+Note that one epoch = 5k steps, so 200 epochs = 1 million steps.
+"""
+
+import rlkit.torch.pytorch_util as ptu
 from rlkit.envs.wrappers import NormalizedBoxEnv
-from rlkit.exploration_strategies.base import (
+from rlkit.exploration_strategies.base import \
     PolicyWrappedWithExplorationStrategy
-)
-from rlkit.exploration_strategies.ou_strategy import OUStrategy
+from rlkit.exploration_strategies.gaussian_strategy import GaussianStrategy
 from rlkit.launchers.launcher_util import setup_logger
 from rlkit.torch.networks import FlattenMlp, TanhMlpPolicy
-from rlkit.torch.ddpg.ddpg import DDPG
-import rlkit.torch.pytorch_util as ptu
+from rlkit.torch.td3.td3 import TD3
 
 from rlkit.envs.farmer import farmer as Farmer
 from rlkit.envs.farmer import set_farm_port
@@ -22,36 +28,44 @@ def experiment(variant):
     logger.add_text_output('./d_text.txt')
     logger.add_tabular_output('./d_tabular.txt')
     logger.set_snapshot_dir('./snaps')
+
     farmer = Farmer([('0.0.0.0', 1)])
     environment = farmer.force_acq_env()
     env = NormalizedBoxEnv(environment)
 
-    es = OUStrategy(action_space=env.action_space)
+    es = GaussianStrategy(
+        action_space=env.action_space,
+        max_sigma=0.1,
+        min_sigma=0.1,  # Constant sigma
+    )
     obs_dim = env.observation_space.low.size
     action_dim = env.action_space.low.size
-
-    net_size = variant['net_size']
-
-    qf = FlattenMlp(
+    qf1 = FlattenMlp(
         input_size=obs_dim + action_dim,
         output_size=1,
-        hidden_sizes=[net_size, net_size],
+        hidden_sizes=[400, 300],
+    )
+    qf2 = FlattenMlp(
+        input_size=obs_dim + action_dim,
+        output_size=1,
+        hidden_sizes=[400, 300],
     )
     policy = TanhMlpPolicy(
         input_size=obs_dim,
         output_size=action_dim,
-        hidden_sizes=[net_size, net_size],
+        hidden_sizes=[400, 300],
     )
     exploration_policy = PolicyWrappedWithExplorationStrategy(
         exploration_strategy=es,
         policy=policy,
     )
-    algorithm = DDPG(
+    algorithm = TD3(
         env,
-        qf=qf,
+        qf1=qf1,
+        qf2=qf2,
         policy=policy,
         exploration_policy=exploration_policy,
-        **variant['algo_params']
+        **variant['algo_kwargs']
     )
     if ptu.gpu_enabled():
         algorithm.cuda()
@@ -59,25 +73,14 @@ def experiment(variant):
 
 
 if __name__ == "__main__":
-    import sys
-    try:
-        farm_port = int(sys.argv[1])
-    except:
-        farm_port = 20099
-    set_farm_port(farm_port)
-    # noinspection PyTypeChecker
     variant = dict(
-        algo_params=dict(
-            num_epochs=1000,
-            num_steps_per_epoch=1000,
-            num_steps_per_eval=1000,
-            use_soft_update=True,
-            tau=1e-2,
-            batch_size=128,
+        algo_kwargs=dict(
+            num_epochs=200,
+            num_steps_per_epoch=5000,
+            num_steps_per_eval=10000,
             max_path_length=1000,
+            batch_size=100,
             discount=0.995,
-            qf_learning_rate=1e-3,
-            policy_learning_rate=1e-4,
 
             environment_farming=True,
             farmlist_base=farmlist_base,
@@ -86,7 +89,6 @@ if __name__ == "__main__":
             save_algorithm=True,
             save_environment=True,
         ),
-        net_size=256,
     )
-    setup_logger('name-of-experiment', variant=variant)
+    setup_logger('name-of-td3-experiment', variant=variant)
     experiment(variant)
