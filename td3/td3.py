@@ -76,9 +76,9 @@ def experiment(variant):
 if __name__ == "__main__":
     variant = dict(
         algo_kwargs=dict(
-            num_epochs=1000,
-            num_steps_per_epoch=5000,
-            num_steps_per_eval=1000,
+            num_epochs=500,
+            num_steps_per_epoch=2000,
+            num_steps_per_eval=10000,
             max_path_length=1000,
             batch_size=128,
             discount=0.995,
