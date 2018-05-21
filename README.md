@@ -13,11 +13,11 @@
 * trained_params -> files composed of trained parameters
 * training_statistics -> files composed of training statistics
 
-## Instalation
+## Installation
 Installation of the submodules are told inside the submodules.
 
 ## How to simulate with trained parameters?
-Run **osim-rl-with-farming/sim_farm/farm.py** on the installed opensim-rl conda environment and run **scripts/simulate_policy.py** with parameter file argument on the rlkit conda environment:
+Run **osim-rl-with-farming/sim_farm/farm.py** on the opensim-rl conda environment and run **scripts/simulate_policy.py** with parameter file argument on the rlkit conda environment:
 
 On the first terminal:
 ```
@@ -33,7 +33,7 @@ python3 scripts/simulate_policy --file <path to parameter file>
 ## How to train models?
 Note: To change hyperparameter, see and change method script files.
 
-Run **osim-rl-with-farming/farming_scripts/farm.py** on the installed opensim-rl conda environment and run **method(ddpg/sac/td3) script** on the rlkit conda environment:
+Run **osim-rl-with-farming/farming_scripts/farm.py** on the opensim-rl conda environment and run **method(ddpg/sac/td3) script** on the rlkit conda environment:
 On the first terminal:
 ```
 source activate opensim-rl
@@ -65,5 +65,5 @@ git clone --recursive https://github.com/CMPE462-Spring2018-Bogazici/term-projec
 ## Plan
 - Develop training system - **DONE**
 - Train models(DDPG, SAC, TD3) - **DONE**
-- Get a lot of visual material about the perfomance of models - **DONE**
+- Get a lot of visual material - **DONE**
 - Write an IPython Notebook about the project - **DONE**
