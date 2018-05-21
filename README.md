@@ -1,39 +1,69 @@
 # Cmpe462-Machine Learning Term Project 
-# "Learn to Run with Deep Reinforcement Learning"
+# "Learn to Move with Deep Reinforcement Learning"
 
 ## NIPS 2017 Challenge: Learning to Run
 - https://github.com/stanfordnmbl/osim-rl
 - https://www.crowdai.org/challenges/nips-2017-learning-to-run
 
-## Method
-- SAC(Soft Actor Critics)[https://github.com/haarnoja/sac https://arxiv.org/abs/1801.01290] : Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor
+## Folders & Submodules inside this repository
+* osim-rl -> submodule containing simulation environment
+* rlkit -> submodule containing deep reinforcement learning framework
+* notebook_files -> files necessary to run the notebook
+* scripts -> scripts used to manage training & simulation
+* trained_params -> files composed of trained parameters
+* training_statistics -> files composed of training statistics
 
-## Why this method?
-Because of the following claims of the related paper:
-- Sample efficiency 
-- Exploration capabilities
-- Speedy than DDPG which is the most used method for this challenge. 
+## Instalation
+Installation of the submodules are told inside the submodules.
 
-## Dealing with Environment Slowness Problem
-* Since the envirenment is very slow or computationally expensive, we do environment farming(running multiple environments parallel) for training.
+## How to simulate with trained parameters?
+Run **osim-rl-with-farming/sim_farm/farm.py** on the installed opensim-rl conda environment and run **scripts/simulate_policy.py** with parameter file argument on the rlkit conda environment:
+
+On the first terminal:
+```
+source activate opensim-rl
+python2 osim-rl-with-farming/sim_farm/farm.py
+```
+On the second terminal:
+```
+source activate rlkit
+python3 scripts/simulate_policy --file <path to parameter file>
+```
+
+## How to train models?
+Note: To change hyperparameter, see and change method script files.
+
+Run **osim-rl-with-farming/farming_scripts/farm.py** on the installed opensim-rl conda environment and run **method(ddpg/sac/td3) script** on the rlkit conda environment:
+On the first terminal:
+```
+source activate opensim-rl
+python2 osim-rl-with-farming/farming_scripts/farm.py
+```
+On the second terminal:
+```
+source activate rlkit
+python3 <path to method(ddpg/sac/td3) script>
+```
+
+## Components
 * [osim-rl-with-farming/farming_scripts](https://github.com/simitii/osim-rl/tree/ver1.5.5/farming_scripts) -> running multiple environments
+* [osim-rl-with-farming/sim_farm](https://github.com/simitii/osim-rl/tree/ver1.5.5/sim_farm) -> trained parameter simulation
 * [rlkit-with-farming](https://github.com/simitii/rlkit) -> train models using multiple environments
 
-## Getting All Source Code
+## Downloading only this repository
+Run following command:
+```
+git clone https://github.com/CMPE462-Spring2018-Bogazici/term-project-sak
+```
+
+## Downloading All Source Code
 Run following command:
 ```
 git clone --recursive https://github.com/CMPE462-Spring2018-Bogazici/term-project-sak
 ```
 
 ## Plan
-- Develop training module - **DONE**
-- Train models(SAC, DDPG)
-- Get a lot of visual material about the perfomance of models
-- Write an IPython Notebook about the project
-
-## Inside the IPython Notebook
-- Tell about the challenge
-- Tell what we did 
-- Give code pieces from the training module
-- Tell the result
-- Compare two models/methods(SAC, DDPG)
+- Develop training system - **DONE**
+- Train models(DDPG, SAC, TD3) - **DONE**
+- Get a lot of visual material about the perfomance of models - **DONE**
+- Write an IPython Notebook about the project - **DONE**

@@ -19,7 +19,7 @@ def continue_experiment(args):
     extra = joblib.load(args.extra)
     
     algorithm = extra['algorithm']
-    algorithm.farmlist_base = [('0.0.0.0', 34)]
+    algorithm.farmlist_base = [('0.0.0.0', 15)]
     algorithm.refarm()
 
     if ptu.gpu_enabled():

@@ -15,7 +15,7 @@ def simulate_policy(args):
     env = data['env']
     print("Policy loaded")
 
-    farmer = Farmer([('123.123.123.123', 1)])
+    farmer = Farmer([('0.0.0.0', 1)])
     env_to_sim = farmer.force_acq_env()
 
     if args.gpu:
