@@ -1,0 +1,2593 @@
+2018-05-18 11:36:43.916928 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #0 | Skipping eval for now.
+2018-05-18 11:36:43.917120 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #0 | Epoch Duration: 47.65379238128662
+2018-05-18 11:36:43.917191 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #0 | Started Training: True
+2018-05-18 11:37:20.447018 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #1 | Epoch Duration: 36.529712200164795
+2018-05-18 11:37:20.447174 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #1 | Started Training: True
+2018-05-18 11:37:57.539757 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #2 | Epoch Duration: 37.092446088790894
+2018-05-18 11:37:57.539954 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #2 | Started Training: True
+2018-05-18 11:38:33.375853 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #3 | Epoch Duration: 35.835763931274414
+2018-05-18 11:38:33.376030 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #3 | Started Training: True
+2018-05-18 11:39:10.195208 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #4 | Epoch Duration: 36.81905508041382
+2018-05-18 11:39:10.195423 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #4 | Started Training: True
+2018-05-18 11:39:45.925079 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #5 | Epoch Duration: 35.72953248023987
+2018-05-18 11:39:45.925276 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #5 | Started Training: True
+2018-05-18 11:40:21.607918 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #6 | Epoch Duration: 35.68249773979187
+2018-05-18 11:40:21.608112 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #6 | Started Training: True
+2018-05-18 11:40:57.992120 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #7 | Epoch Duration: 36.38386607170105
+2018-05-18 11:40:57.992365 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #7 | Started Training: True
+2018-05-18 11:41:34.006849 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #8 | Epoch Duration: 36.014315128326416
+2018-05-18 11:41:34.007103 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #8 | Started Training: True
+2018-05-18 11:42:10.074084 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #9 | Epoch Duration: 36.066768407821655
+2018-05-18 11:42:10.074294 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #9 | Started Training: True
+2018-05-18 11:42:55.754893 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #10 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000154957
+Policy Loss                      -0.483681
+Raw Policy Loss                  -0.483681
+Preactivation Policy Loss         0
+Q Predictions Mean                0.480008
+Q Predictions Std                 0.430324
+Q Predictions Max                 0.951374
+Q Predictions Min                -0.425135
+Q Targets Mean                    0.481065
+Q Targets Std                     0.43057
+Q Targets Max                     0.947435
+Q Targets Min                    -0.421141
+Bellman Errors Mean               0.000154957
+Bellman Errors Std                0.00028744
+Bellman Errors Max                0.00169283
+Bellman Errors Min                2.88569e-12
+Policy Action Mean                0.0574795
+Policy Action Std                 0.969225
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00722948
+Exploration Rewards Std           0.00437075
+Exploration Rewards Max           0.0171675
+Exploration Rewards Min          -0.00314586
+Exploration Returns Mean          1.13503
+Exploration Returns Std           0.10156
+Exploration Returns Max           1.25768
+Exploration Returns Min           0.932744
+Exploration Actions Mean          0.0762561
+Exploration Actions Std           0.827341
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  211840
+Number of env steps total     11000
+Number of rollouts total       1353
+Train Time (s)                   20.2524
+(Previous) Eval Time (s)          2.484e-06
+Sample Time (s)                  14.7691
+Epoch Time (s)                   35.0215
+Total Train Time (s)            624.395
+Epoch                            10
+---------------------------  ----------------
+2018-05-18 11:46:20.888859 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #10 | Epoch Duration: 250.81443285942078
+2018-05-18 11:46:20.888968 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #10 | Started Training: True
+2018-05-18 11:46:58.032101 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #11 | Epoch Duration: 37.14304065704346
+2018-05-18 11:46:58.032271 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #11 | Started Training: True
+2018-05-18 11:47:34.089714 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #12 | Epoch Duration: 36.05732727050781
+2018-05-18 11:47:34.089921 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #12 | Started Training: True
+2018-05-18 11:48:09.396620 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #13 | Epoch Duration: 35.30656290054321
+2018-05-18 11:48:09.396870 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #13 | Started Training: True
+2018-05-18 11:48:46.321728 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #14 | Epoch Duration: 36.924681186676025
+2018-05-18 11:48:46.321949 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #14 | Started Training: True
+2018-05-18 11:49:22.930864 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #15 | Epoch Duration: 36.60874700546265
+2018-05-18 11:49:22.931090 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #15 | Started Training: True
+2018-05-18 11:49:58.302212 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #16 | Epoch Duration: 35.370938539505005
+2018-05-18 11:49:58.302423 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #16 | Started Training: True
+2018-05-18 11:50:34.523003 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #17 | Epoch Duration: 36.22043561935425
+2018-05-18 11:50:34.523263 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #17 | Started Training: True
+2018-05-18 11:51:11.515467 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #18 | Epoch Duration: 36.99203610420227
+2018-05-18 11:51:11.515665 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #18 | Started Training: True
+2018-05-18 11:51:46.597703 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #19 | Epoch Duration: 35.08191442489624
+2018-05-18 11:51:46.597899 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #19 | Started Training: True
+2018-05-18 11:52:34.069502 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #20 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000240252
+Policy Loss                      -0.585887
+Raw Policy Loss                  -0.585887
+Preactivation Policy Loss         0
+Q Predictions Mean                0.578709
+Q Predictions Std                 0.462747
+Q Predictions Max                 1.22171
+Q Predictions Min                -0.633628
+Q Targets Mean                    0.579859
+Q Targets Std                     0.46309
+Q Targets Max                     1.22715
+Q Targets Min                    -0.674304
+Bellman Errors Mean               0.000240252
+Bellman Errors Std                0.000777826
+Bellman Errors Max                0.00529716
+Bellman Errors Min                1.10223e-09
+Policy Action Mean                0.101157
+Policy Action Std                 0.971082
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         8
+Exploration Rewards Mean          0.00722659
+Exploration Rewards Std           0.0043608
+Exploration Rewards Max           0.0187097
+Exploration Rewards Min          -0.00362967
+Exploration Returns Mean          1.11741
+Exploration Returns Std           0.130804
+Exploration Returns Max           1.21428
+Exploration Returns Min           0.785621
+Exploration Actions Mean          0.0816258
+Exploration Actions Std           0.827032
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  221840
+Number of env steps total     21000
+Number of rollouts total       1420
+Train Time (s)                   21.3602
+(Previous) Eval Time (s)          2.654e-06
+Sample Time (s)                  15.3659
+Epoch Time (s)                   36.7261
+Total Train Time (s)           1202.31
+Epoch                            20
+---------------------------  ----------------
+2018-05-18 11:55:59.009910 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #20 | Epoch Duration: 252.41190314292908
+2018-05-18 11:55:59.010020 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #20 | Started Training: True
+2018-05-18 11:56:34.109520 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #21 | Epoch Duration: 35.09939622879028
+2018-05-18 11:56:34.110216 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #21 | Started Training: True
+2018-05-18 11:57:08.981837 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #22 | Epoch Duration: 34.87149477005005
+2018-05-18 11:57:08.982012 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #22 | Started Training: True
+2018-05-18 11:57:45.995247 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #23 | Epoch Duration: 37.01311206817627
+2018-05-18 11:57:45.995497 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #23 | Started Training: True
+2018-05-18 11:58:21.816432 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #24 | Epoch Duration: 35.82075643539429
+2018-05-18 11:58:21.816674 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #24 | Started Training: True
+2018-05-18 11:58:57.932009 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #25 | Epoch Duration: 36.115193367004395
+2018-05-18 11:58:57.932191 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #25 | Started Training: True
+2018-05-18 11:59:35.133904 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #26 | Epoch Duration: 37.20159649848938
+2018-05-18 11:59:35.134064 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #26 | Started Training: True
+2018-05-18 12:00:11.608264 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #27 | Epoch Duration: 36.47408437728882
+2018-05-18 12:00:11.608465 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #27 | Started Training: True
+2018-05-18 12:00:47.476117 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #28 | Epoch Duration: 35.867517948150635
+2018-05-18 12:00:47.476346 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #28 | Started Training: True
+2018-05-18 12:01:23.000010 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #29 | Epoch Duration: 35.52350425720215
+2018-05-18 12:01:23.000218 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #29 | Started Training: True
+2018-05-18 12:02:10.748822 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #30 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000343522
+Policy Loss                      -0.569977
+Raw Policy Loss                  -0.569977
+Preactivation Policy Loss         0
+Q Predictions Mean                0.559234
+Q Predictions Std                 0.459006
+Q Predictions Max                 1.16337
+Q Predictions Min                -0.563619
+Q Targets Mean                    0.560539
+Q Targets Std                     0.458607
+Q Targets Max                     1.1879
+Q Targets Min                    -0.582414
+Bellman Errors Mean               0.000343522
+Bellman Errors Std                0.0013175
+Bellman Errors Max                0.0142606
+Bellman Errors Min                1.39281e-10
+Policy Action Mean                0.112304
+Policy Action Std                 0.976992
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         5
+Exploration Rewards Mean          0.00677978
+Exploration Rewards Std           0.00418311
+Exploration Rewards Max           0.016947
+Exploration Rewards Min          -0.004367
+Exploration Returns Mean          1.00341
+Exploration Returns Std           0.126273
+Exploration Returns Max           1.16156
+Exploration Returns Min           0.823913
+Exploration Actions Mean          0.0893433
+Exploration Actions Std           0.829325
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  231840
+Number of env steps total     31000
+Number of rollouts total       1482
+Train Time (s)                   21.049
+(Previous) Eval Time (s)          2.574e-06
+Sample Time (s)                  15.3748
+Epoch Time (s)                   36.4238
+Total Train Time (s)           1775.79
+Epoch                            30
+---------------------------  ----------------
+2018-05-18 12:05:32.687927 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #30 | Epoch Duration: 249.68757891654968
+2018-05-18 12:05:32.688033 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #30 | Started Training: True
+2018-05-18 12:06:07.450251 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #31 | Epoch Duration: 34.762118339538574
+2018-05-18 12:06:07.450431 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #31 | Started Training: True
+2018-05-18 12:06:44.033165 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #32 | Epoch Duration: 36.58261227607727
+2018-05-18 12:06:44.033368 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #32 | Started Training: True
+2018-05-18 12:07:19.912508 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #33 | Epoch Duration: 35.879002809524536
+2018-05-18 12:07:19.912703 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #33 | Started Training: True
+2018-05-18 12:07:55.063611 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #34 | Epoch Duration: 35.1507568359375
+2018-05-18 12:07:55.063804 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #34 | Started Training: True
+2018-05-18 12:08:30.844766 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #35 | Epoch Duration: 35.78084468841553
+2018-05-18 12:08:30.845606 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #35 | Started Training: True
+2018-05-18 12:09:07.772642 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #36 | Epoch Duration: 36.9268741607666
+2018-05-18 12:09:07.772872 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #36 | Started Training: True
+2018-05-18 12:09:41.852812 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #37 | Epoch Duration: 34.07978272438049
+2018-05-18 12:09:41.853041 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #37 | Started Training: True
+2018-05-18 12:10:18.470502 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #38 | Epoch Duration: 36.617303133010864
+2018-05-18 12:10:18.470721 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #38 | Started Training: True
+2018-05-18 12:10:54.002301 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #39 | Epoch Duration: 35.531424045562744
+2018-05-18 12:10:54.002519 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #39 | Started Training: True
+2018-05-18 12:11:41.618683 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #40 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.00121007
+Policy Loss                      -0.675262
+Raw Policy Loss                  -0.675262
+Preactivation Policy Loss         0
+Q Predictions Mean                0.664851
+Q Predictions Std                 0.44596
+Q Predictions Max                 1.29088
+Q Predictions Min                -0.586217
+Q Targets Mean                    0.661047
+Q Targets Std                     0.449213
+Q Targets Max                     1.28236
+Q Targets Min                    -0.571186
+Bellman Errors Mean               0.00121007
+Bellman Errors Std                0.0110021
+Bellman Errors Max                0.12502
+Bellman Errors Min                1.17099e-08
+Policy Action Mean                0.112267
+Policy Action Std                 0.97672
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         9
+Exploration Rewards Mean          0.00707306
+Exploration Rewards Std           0.00421853
+Exploration Rewards Max           0.0175738
+Exploration Rewards Min          -0.00374543
+Exploration Returns Mean          1.10261
+Exploration Returns Std           0.113964
+Exploration Returns Max           1.26811
+Exploration Returns Min           0.829207
+Exploration Actions Mean          0.0805694
+Exploration Actions Std           0.825398
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  241840
+Number of env steps total     41000
+Number of rollouts total       1550
+Train Time (s)                   20.7883
+(Previous) Eval Time (s)          2.619e-06
+Sample Time (s)                  15.2648
+Epoch Time (s)                   36.0531
+Total Train Time (s)           2346.43
+Epoch                            40
+---------------------------  ----------------
+2018-05-18 12:15:03.533402 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #40 | Epoch Duration: 249.53074669837952
+2018-05-18 12:15:03.533514 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #40 | Started Training: True
+2018-05-18 12:15:39.707140 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #41 | Epoch Duration: 36.173524141311646
+2018-05-18 12:15:39.707429 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #41 | Started Training: True
+2018-05-18 12:16:15.669410 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #42 | Epoch Duration: 35.961787700653076
+2018-05-18 12:16:15.669579 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #42 | Started Training: True
+2018-05-18 12:16:53.012823 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #43 | Epoch Duration: 37.34312200546265
+2018-05-18 12:16:53.013018 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #43 | Started Training: True
+2018-05-18 12:17:28.302352 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #44 | Epoch Duration: 35.28921437263489
+2018-05-18 12:17:28.302538 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #44 | Started Training: True
+2018-05-18 12:18:03.284128 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #45 | Epoch Duration: 34.98146438598633
+2018-05-18 12:18:03.284289 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #45 | Started Training: True
+2018-05-18 12:18:38.051109 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #46 | Epoch Duration: 34.76669955253601
+2018-05-18 12:18:38.051333 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #46 | Started Training: True
+2018-05-18 12:19:13.665254 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #47 | Epoch Duration: 35.613789319992065
+2018-05-18 12:19:13.665476 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #47 | Started Training: True
+2018-05-18 12:19:48.829007 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #48 | Epoch Duration: 35.163374185562134
+2018-05-18 12:19:48.829188 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #48 | Started Training: True
+2018-05-18 12:20:24.254366 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #49 | Epoch Duration: 35.42504334449768
+2018-05-18 12:20:24.254531 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #49 | Started Training: True
+2018-05-18 12:21:11.431020 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #50 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000961189
+Policy Loss                      -0.573887
+Raw Policy Loss                  -0.573887
+Preactivation Policy Loss         0
+Q Predictions Mean                0.563866
+Q Predictions Std                 0.486306
+Q Predictions Max                 1.20068
+Q Predictions Min                -0.59587
+Q Targets Mean                    0.569082
+Q Targets Std                     0.485419
+Q Targets Max                     1.19072
+Q Targets Min                    -0.54322
+Bellman Errors Mean               0.00096119
+Bellman Errors Std                0.00769264
+Bellman Errors Max                0.0866435
+Bellman Errors Min                3.86891e-12
+Policy Action Mean                0.099904
+Policy Action Std                 0.974514
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00693485
+Exploration Rewards Std           0.00395042
+Exploration Rewards Max           0.0159016
+Exploration Rewards Min          -0.00400271
+Exploration Returns Mean          1.0853
+Exploration Returns Std           0.120308
+Exploration Returns Max           1.24229
+Exploration Returns Min           0.881494
+Exploration Actions Mean          0.0812346
+Exploration Actions Std           0.829752
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  251840
+Number of env steps total     51000
+Number of rollouts total       1611
+Train Time (s)                   20.7428
+(Previous) Eval Time (s)          2.17099e-06
+Sample Time (s)                  14.4739
+Epoch Time (s)                   35.2168
+Total Train Time (s)           2916.57
+Epoch                            50
+---------------------------  ----------------
+2018-05-18 12:24:33.867881 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #50 | Epoch Duration: 249.61324524879456
+2018-05-18 12:24:33.867985 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #50 | Started Training: True
+2018-05-18 12:25:08.901943 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #51 | Epoch Duration: 35.03386425971985
+2018-05-18 12:25:08.902107 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #51 | Started Training: True
+2018-05-18 12:25:45.250129 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #52 | Epoch Duration: 36.34790658950806
+2018-05-18 12:25:45.250329 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #52 | Started Training: True
+2018-05-18 12:26:21.195033 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #53 | Epoch Duration: 35.94459080696106
+2018-05-18 12:26:21.195211 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #53 | Started Training: True
+2018-05-18 12:26:56.873505 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #54 | Epoch Duration: 35.67817401885986
+2018-05-18 12:26:56.873752 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #54 | Started Training: True
+2018-05-18 12:27:32.679716 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #55 | Epoch Duration: 35.80576038360596
+2018-05-18 12:27:32.679957 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #55 | Started Training: True
+2018-05-18 12:28:10.013143 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #56 | Epoch Duration: 37.3330454826355
+2018-05-18 12:28:10.013319 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #56 | Started Training: True
+2018-05-18 12:28:45.524599 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #57 | Epoch Duration: 35.51116490364075
+2018-05-18 12:28:45.524874 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #57 | Started Training: True
+2018-05-18 12:29:21.965227 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #58 | Epoch Duration: 36.44015049934387
+2018-05-18 12:29:21.965480 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #58 | Started Training: True
+2018-05-18 12:29:57.943617 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #59 | Epoch Duration: 35.97795224189758
+2018-05-18 12:29:57.943812 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #59 | Started Training: True
+2018-05-18 12:30:46.623060 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #60 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000263285
+Policy Loss                      -0.545043
+Raw Policy Loss                  -0.545043
+Preactivation Policy Loss         0
+Q Predictions Mean                0.537719
+Q Predictions Std                 0.530257
+Q Predictions Max                 1.2759
+Q Predictions Min                -0.543145
+Q Targets Mean                    0.53893
+Q Targets Std                     0.527948
+Q Targets Max                     1.25703
+Q Targets Min                    -0.54195
+Bellman Errors Mean               0.000263285
+Bellman Errors Std                0.000634671
+Bellman Errors Max                0.00430142
+Bellman Errors Min                1.41455e-09
+Policy Action Mean                0.0975256
+Policy Action Std                 0.974678
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         9
+Exploration Rewards Mean          0.00701952
+Exploration Rewards Std           0.00418465
+Exploration Rewards Max           0.0173326
+Exploration Rewards Min          -0.00344642
+Exploration Returns Mean          1.05683
+Exploration Returns Std           0.134281
+Exploration Returns Max           1.19904
+Exploration Returns Min           0.817664
+Exploration Actions Mean          0.081949
+Exploration Actions Std           0.824768
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  261840
+Number of env steps total     61000
+Number of rollouts total       1678
+Train Time (s)                   21.3821
+(Previous) Eval Time (s)          2.213e-06
+Sample Time (s)                  15.0245
+Epoch Time (s)                   36.4066
+Total Train Time (s)           3491.06
+Epoch                            60
+---------------------------  ----------------
+2018-05-18 12:34:08.561546 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #60 | Epoch Duration: 250.61761808395386
+2018-05-18 12:34:08.561649 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #60 | Started Training: True
+2018-05-18 12:34:45.635523 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #61 | Epoch Duration: 37.07377076148987
+2018-05-18 12:34:45.635753 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #61 | Started Training: True
+2018-05-18 12:35:21.957100 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #62 | Epoch Duration: 36.32118010520935
+2018-05-18 12:35:21.957300 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #62 | Started Training: True
+2018-05-18 12:35:58.140269 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #63 | Epoch Duration: 36.18281936645508
+2018-05-18 12:35:58.140451 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #63 | Started Training: True
+2018-05-18 12:36:35.165393 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #64 | Epoch Duration: 37.024813652038574
+2018-05-18 12:36:35.165612 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #64 | Started Training: True
+2018-05-18 12:37:10.835736 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #65 | Epoch Duration: 35.669960737228394
+2018-05-18 12:37:10.835935 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #65 | Started Training: True
+2018-05-18 12:37:46.265051 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #66 | Epoch Duration: 35.42899703979492
+2018-05-18 12:37:46.265243 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #66 | Started Training: True
+2018-05-18 12:38:23.288979 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #67 | Epoch Duration: 37.02360010147095
+2018-05-18 12:38:23.289168 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #67 | Started Training: True
+2018-05-18 12:38:59.573866 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #68 | Epoch Duration: 36.28456258773804
+2018-05-18 12:38:59.574085 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #68 | Started Training: True
+2018-05-18 12:39:37.150252 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #69 | Epoch Duration: 37.57602667808533
+2018-05-18 12:39:37.150465 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #69 | Started Training: True
+2018-05-18 12:40:25.236739 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #70 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000799518
+Policy Loss                      -0.681611
+Raw Policy Loss                  -0.681611
+Preactivation Policy Loss         0
+Q Predictions Mean                0.671156
+Q Predictions Std                 0.429061
+Q Predictions Max                 1.22442
+Q Predictions Min                -0.567823
+Q Targets Mean                    0.675399
+Q Targets Std                     0.426583
+Q Targets Max                     1.21371
+Q Targets Min                    -0.543478
+Bellman Errors Mean               0.000799518
+Bellman Errors Std                0.00640459
+Bellman Errors Max                0.072267
+Bellman Errors Min                2.3656e-09
+Policy Action Mean                0.0934407
+Policy Action Std                 0.972103
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         9
+Exploration Rewards Mean          0.00697858
+Exploration Rewards Std           0.00403294
+Exploration Rewards Max           0.0158731
+Exploration Rewards Min          -0.00403536
+Exploration Returns Mean          1.06307
+Exploration Returns Std           0.148958
+Exploration Returns Max           1.2655
+Exploration Returns Min           0.78706
+Exploration Actions Mean          0.0878234
+Exploration Actions Std           0.824227
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  271840
+Number of env steps total     71000
+Number of rollouts total       1743
+Train Time (s)                   20.2994
+(Previous) Eval Time (s)          2.65e-06
+Sample Time (s)                  15.2516
+Epoch Time (s)                   35.551
+Total Train Time (s)           4071.34
+Epoch                            70
+---------------------------  ----------------
+2018-05-18 12:43:49.044622 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #70 | Epoch Duration: 251.8939745426178
+2018-05-18 12:43:49.044728 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #70 | Started Training: True
+2018-05-18 12:44:25.997902 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #71 | Epoch Duration: 36.95307397842407
+2018-05-18 12:44:25.998151 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #71 | Started Training: True
+2018-05-18 12:45:02.377978 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #72 | Epoch Duration: 36.37964963912964
+2018-05-18 12:45:02.378156 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #72 | Started Training: True
+2018-05-18 12:45:38.596711 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #73 | Epoch Duration: 36.21842670440674
+2018-05-18 12:45:38.596891 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #73 | Started Training: True
+2018-05-18 12:46:14.553240 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #74 | Epoch Duration: 35.95622158050537
+2018-05-18 12:46:14.553469 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #74 | Started Training: True
+2018-05-18 12:46:51.280886 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #75 | Epoch Duration: 36.727280139923096
+2018-05-18 12:46:51.281123 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #75 | Started Training: True
+2018-05-18 12:47:28.472020 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #76 | Epoch Duration: 37.1907274723053
+2018-05-18 12:47:28.472189 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #76 | Started Training: True
+2018-05-18 12:48:05.221373 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #77 | Epoch Duration: 36.74907088279724
+2018-05-18 12:48:05.221600 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #77 | Started Training: True
+2018-05-18 12:48:41.324699 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #78 | Epoch Duration: 36.10294818878174
+2018-05-18 12:48:41.324939 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #78 | Started Training: True
+2018-05-18 12:49:17.207965 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #79 | Epoch Duration: 35.8828661441803
+2018-05-18 12:49:17.208172 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #79 | Started Training: True
+2018-05-18 12:50:07.455041 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #80 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000209065
+Policy Loss                      -0.669361
+Raw Policy Loss                  -0.669361
+Preactivation Policy Loss         0
+Q Predictions Mean                0.663238
+Q Predictions Std                 0.449192
+Q Predictions Max                 1.30051
+Q Predictions Min                -0.668367
+Q Targets Mean                    0.662036
+Q Targets Std                     0.449939
+Q Targets Max                     1.33237
+Q Targets Min                    -0.654815
+Bellman Errors Mean               0.000209065
+Bellman Errors Std                0.000481237
+Bellman Errors Max                0.00347983
+Bellman Errors Min                1.29394e-09
+Policy Action Mean                0.0950125
+Policy Action Std                 0.971427
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00705147
+Exploration Rewards Std           0.0042349
+Exploration Rewards Max           0.0170763
+Exploration Rewards Min          -0.0032282
+Exploration Returns Mean          1.11648
+Exploration Returns Std           0.12925
+Exploration Returns Max           1.29094
+Exploration Returns Min           0.910497
+Exploration Actions Mean          0.0846858
+Exploration Actions Std           0.829862
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  281840
+Number of env steps total     81000
+Number of rollouts total       1807
+Train Time (s)                   22.1509
+(Previous) Eval Time (s)          2.854e-06
+Sample Time (s)                  15.141
+Epoch Time (s)                   37.292
+Total Train Time (s)           4656.35
+Epoch                            80
+---------------------------  ----------------
+2018-05-18 12:53:34.245428 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #80 | Epoch Duration: 257.0371115207672
+2018-05-18 12:53:34.245540 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #80 | Started Training: True
+2018-05-18 12:54:10.534710 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #81 | Epoch Duration: 36.28907108306885
+2018-05-18 12:54:10.534934 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #81 | Started Training: True
+2018-05-18 12:54:47.108145 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #82 | Epoch Duration: 36.57301139831543
+2018-05-18 12:54:47.108346 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #82 | Started Training: True
+2018-05-18 12:55:23.412529 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #83 | Epoch Duration: 36.3040452003479
+2018-05-18 12:55:23.412743 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #83 | Started Training: True
+2018-05-18 12:55:59.759343 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #84 | Epoch Duration: 36.34644269943237
+2018-05-18 12:55:59.759597 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #84 | Started Training: True
+2018-05-18 12:56:34.764753 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #85 | Epoch Duration: 35.0049786567688
+2018-05-18 12:56:34.764987 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #85 | Started Training: True
+2018-05-18 12:57:11.581415 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #86 | Epoch Duration: 36.8162682056427
+2018-05-18 12:57:11.581613 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #86 | Started Training: True
+2018-05-18 12:57:48.899480 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #87 | Epoch Duration: 37.317747592926025
+2018-05-18 12:57:48.899688 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #87 | Started Training: True
+2018-05-18 12:58:25.036498 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #88 | Epoch Duration: 36.13666534423828
+2018-05-18 12:58:25.036690 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #88 | Started Training: True
+2018-05-18 12:59:01.004651 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #89 | Epoch Duration: 35.96781802177429
+2018-05-18 12:59:01.005404 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #89 | Started Training: True
+2018-05-18 12:59:50.700560 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #90 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000231667
+Policy Loss                      -0.623038
+Raw Policy Loss                  -0.623038
+Preactivation Policy Loss         0
+Q Predictions Mean                0.616304
+Q Predictions Std                 0.43042
+Q Predictions Max                 1.2154
+Q Predictions Min                -0.538493
+Q Targets Mean                    0.618621
+Q Targets Std                     0.432501
+Q Targets Max                     1.23081
+Q Targets Min                    -0.555751
+Bellman Errors Mean               0.000231667
+Bellman Errors Std                0.000569845
+Bellman Errors Max                0.00500792
+Bellman Errors Min                2.78533e-10
+Policy Action Mean                0.102452
+Policy Action Std                 0.971998
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00701394
+Exploration Rewards Std           0.00407311
+Exploration Rewards Max           0.0173617
+Exploration Rewards Min          -0.00315747
+Exploration Returns Mean          1.10219
+Exploration Returns Std           0.156444
+Exploration Returns Max           1.28061
+Exploration Returns Min           0.865588
+Exploration Actions Mean          0.0840185
+Exploration Actions Std           0.831427
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  291840
+Number of env steps total     91000
+Number of rollouts total       1872
+Train Time (s)                   21.254
+(Previous) Eval Time (s)          2.882e-06
+Sample Time (s)                  15.2105
+Epoch Time (s)                   36.4645
+Total Train Time (s)           5244.48
+Epoch                            90
+---------------------------  ----------------
+2018-05-18 13:03:22.579144 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #90 | Epoch Duration: 261.57356572151184
+2018-05-18 13:03:22.579268 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #90 | Started Training: True
+2018-05-18 13:03:59.376079 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #91 | Epoch Duration: 36.79671669006348
+2018-05-18 13:03:59.376245 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #91 | Started Training: True
+2018-05-18 13:04:35.729656 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #92 | Epoch Duration: 36.3532931804657
+2018-05-18 13:04:35.729920 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #92 | Started Training: True
+2018-05-18 13:05:12.154935 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #93 | Epoch Duration: 36.424805641174316
+2018-05-18 13:05:12.155207 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #93 | Started Training: True
+2018-05-18 13:05:48.204711 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #94 | Epoch Duration: 36.04929041862488
+2018-05-18 13:05:48.204884 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #94 | Started Training: True
+2018-05-18 13:06:24.621308 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #95 | Epoch Duration: 36.416298389434814
+2018-05-18 13:06:24.621531 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #95 | Started Training: True
+2018-05-18 13:07:02.868787 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #96 | Epoch Duration: 38.24710536003113
+2018-05-18 13:07:02.869021 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #96 | Started Training: True
+2018-05-18 13:07:40.065888 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #97 | Epoch Duration: 37.19672083854675
+2018-05-18 13:07:40.066087 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #97 | Started Training: True
+2018-05-18 13:08:16.467765 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #98 | Epoch Duration: 36.40156602859497
+2018-05-18 13:08:16.467945 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #98 | Started Training: True
+2018-05-18 13:08:53.252240 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #99 | Epoch Duration: 36.78417420387268
+2018-05-18 13:08:53.252446 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #99 | Started Training: True
+2018-05-18 13:09:44.107666 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #100 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.00072775
+Policy Loss                      -0.617596
+Raw Policy Loss                  -0.617596
+Preactivation Policy Loss         0
+Q Predictions Mean                0.607561
+Q Predictions Std                 0.44627
+Q Predictions Max                 1.18506
+Q Predictions Min                -0.653313
+Q Targets Mean                    0.607956
+Q Targets Std                     0.444859
+Q Targets Max                     1.19369
+Q Targets Min                    -0.647993
+Bellman Errors Mean               0.00072775
+Bellman Errors Std                0.00572796
+Bellman Errors Max                0.0648276
+Bellman Errors Min                6.95586e-09
+Policy Action Mean                0.0950842
+Policy Action Std                 0.974422
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00695416
+Exploration Rewards Std           0.00403978
+Exploration Rewards Max           0.0167579
+Exploration Rewards Min          -0.00470154
+Exploration Returns Mean          1.09379
+Exploration Returns Std           0.12548
+Exploration Returns Max           1.23169
+Exploration Returns Min           0.905126
+Exploration Actions Mean          0.077337
+Exploration Actions Std           0.826716
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  301840
+Number of env steps total    101000
+Number of rollouts total       1937
+Train Time (s)                   21.413
+(Previous) Eval Time (s)          2.368e-06
+Sample Time (s)                  15.8349
+Epoch Time (s)                   37.2479
+Total Train Time (s)           5835.4
+Epoch                           100
+---------------------------  ----------------
+2018-05-18 13:13:13.699576 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #100 | Epoch Duration: 260.44701504707336
+2018-05-18 13:13:13.699681 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #100 | Started Training: True
+2018-05-18 13:13:50.482816 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #101 | Epoch Duration: 36.78304481506348
+2018-05-18 13:13:50.482988 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #101 | Started Training: True
+2018-05-18 13:14:26.868723 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #102 | Epoch Duration: 36.385616302490234
+2018-05-18 13:14:26.868961 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #102 | Started Training: True
+2018-05-18 13:15:03.744947 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #103 | Epoch Duration: 36.87583899497986
+2018-05-18 13:15:03.745163 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #103 | Started Training: True
+2018-05-18 13:15:41.027582 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #104 | Epoch Duration: 37.282275915145874
+2018-05-18 13:15:41.027752 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #104 | Started Training: True
+2018-05-18 13:16:16.784822 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #105 | Epoch Duration: 35.756948709487915
+2018-05-18 13:16:16.785032 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #105 | Started Training: True
+2018-05-18 13:16:54.732424 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #106 | Epoch Duration: 37.94724678993225
+2018-05-18 13:16:54.732594 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #106 | Started Training: True
+2018-05-18 13:17:32.504992 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #107 | Epoch Duration: 37.77227473258972
+2018-05-18 13:17:32.505250 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #107 | Started Training: True
+2018-05-18 13:18:09.384115 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #108 | Epoch Duration: 36.87868022918701
+2018-05-18 13:18:09.384287 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #108 | Started Training: True
+2018-05-18 13:18:46.556108 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #109 | Epoch Duration: 37.17169642448425
+2018-05-18 13:18:46.556268 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #109 | Started Training: True
+2018-05-18 13:19:37.518807 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #110 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000237363
+Policy Loss                      -0.589816
+Raw Policy Loss                  -0.589816
+Preactivation Policy Loss         0
+Q Predictions Mean                0.581857
+Q Predictions Std                 0.474152
+Q Predictions Max                 1.20695
+Q Predictions Min                -0.675212
+Q Targets Mean                    0.582239
+Q Targets Std                     0.47514
+Q Targets Max                     1.20733
+Q Targets Min                    -0.689389
+Bellman Errors Mean               0.000237363
+Bellman Errors Std                0.000575355
+Bellman Errors Max                0.00394
+Bellman Errors Min                1.36481e-10
+Policy Action Mean                0.105567
+Policy Action Std                 0.972165
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         4
+Exploration Rewards Mean          0.00734719
+Exploration Rewards Std           0.00436556
+Exploration Rewards Max           0.0160948
+Exploration Rewards Min          -0.00466835
+Exploration Returns Mean          1.16637
+Exploration Returns Std           0.0929192
+Exploration Returns Max           1.3096
+Exploration Returns Min           1.06946
+Exploration Actions Mean          0.0792351
+Exploration Actions Std           0.827847
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  311840
+Number of env steps total    111000
+Number of rollouts total       2002
+Train Time (s)                   21.546
+(Previous) Eval Time (s)          2.327e-06
+Sample Time (s)                  15.5676
+Epoch Time (s)                   37.1136
+Total Train Time (s)           6431.07
+Epoch                           110
+---------------------------  ----------------
+2018-05-18 13:23:09.561635 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #110 | Epoch Duration: 263.005264043808
+2018-05-18 13:23:09.561739 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #110 | Started Training: True
+2018-05-18 13:23:46.172080 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #111 | Epoch Duration: 36.61024737358093
+2018-05-18 13:23:46.172250 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #111 | Started Training: True
+2018-05-18 13:24:23.432459 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #112 | Epoch Duration: 37.26009178161621
+2018-05-18 13:24:23.432676 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #112 | Started Training: True
+2018-05-18 13:25:00.537226 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #113 | Epoch Duration: 37.104413986206055
+2018-05-18 13:25:00.537444 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #113 | Started Training: True
+2018-05-18 13:25:36.695314 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #114 | Epoch Duration: 36.157718658447266
+2018-05-18 13:25:36.695915 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #114 | Started Training: True
+2018-05-18 13:26:14.333621 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #115 | Epoch Duration: 37.63749647140503
+2018-05-18 13:26:14.333805 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #115 | Started Training: True
+2018-05-18 13:26:50.136457 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #116 | Epoch Duration: 35.80251860618591
+2018-05-18 13:26:50.136654 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #116 | Started Training: True
+2018-05-18 13:27:28.443526 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #117 | Epoch Duration: 38.306723833084106
+2018-05-18 13:27:28.443770 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #117 | Started Training: True
+2018-05-18 13:28:05.281064 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #118 | Epoch Duration: 36.837111473083496
+2018-05-18 13:28:05.281271 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #118 | Started Training: True
+2018-05-18 13:28:41.172146 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #119 | Epoch Duration: 35.89073133468628
+2018-05-18 13:28:41.172398 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #119 | Started Training: True
+2018-05-18 13:29:32.778513 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #120 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000219603
+Policy Loss                      -0.618851
+Raw Policy Loss                  -0.618851
+Preactivation Policy Loss         0
+Q Predictions Mean                0.613101
+Q Predictions Std                 0.44658
+Q Predictions Max                 1.17559
+Q Predictions Min                -0.575355
+Q Targets Mean                    0.61183
+Q Targets Std                     0.446433
+Q Targets Max                     1.16855
+Q Targets Min                    -0.555331
+Bellman Errors Mean               0.000219603
+Bellman Errors Std                0.000676454
+Bellman Errors Max                0.00602703
+Bellman Errors Min                4.61712e-10
+Policy Action Mean                0.108047
+Policy Action Std                 0.976689
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00720921
+Exploration Rewards Std           0.00423107
+Exploration Rewards Max           0.0170585
+Exploration Rewards Min          -0.00390232
+Exploration Returns Mean          1.13906
+Exploration Returns Std           0.0422772
+Exploration Returns Max           1.21149
+Exploration Returns Min           1.08875
+Exploration Actions Mean          0.0809934
+Exploration Actions Std           0.831082
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  321840
+Number of env steps total    121000
+Number of rollouts total       2068
+Train Time (s)                   21.0637
+(Previous) Eval Time (s)          2.94601e-06
+Sample Time (s)                  16.3484
+Epoch Time (s)                   37.4121
+Total Train Time (s)           7023.01
+Epoch                           120
+---------------------------  ----------------
+2018-05-18 13:33:01.702276 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #120 | Epoch Duration: 260.52969694137573
+2018-05-18 13:33:01.702384 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #120 | Started Training: True
+2018-05-18 13:33:39.944465 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #121 | Epoch Duration: 38.24197173118591
+2018-05-18 13:33:39.944658 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #121 | Started Training: True
+2018-05-18 13:34:16.945293 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #122 | Epoch Duration: 37.000508546829224
+2018-05-18 13:34:16.945460 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #122 | Started Training: True
+2018-05-18 13:34:54.769471 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #123 | Epoch Duration: 37.82388496398926
+2018-05-18 13:34:54.769702 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #123 | Started Training: True
+2018-05-18 13:35:30.522028 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #124 | Epoch Duration: 35.75215125083923
+2018-05-18 13:35:30.522235 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #124 | Started Training: True
+2018-05-18 13:36:08.281878 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #125 | Epoch Duration: 37.75948977470398
+2018-05-18 13:36:08.282047 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #125 | Started Training: True
+2018-05-18 13:36:45.180106 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #126 | Epoch Duration: 36.89793634414673
+2018-05-18 13:36:45.180334 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #126 | Started Training: True
+2018-05-18 13:37:21.548688 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #127 | Epoch Duration: 36.36818766593933
+2018-05-18 13:37:21.548948 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #127 | Started Training: True
+2018-05-18 13:37:58.376997 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #128 | Epoch Duration: 36.82785105705261
+2018-05-18 13:37:58.377161 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #128 | Started Training: True
+2018-05-18 13:38:35.002877 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #129 | Epoch Duration: 36.62560200691223
+2018-05-18 13:38:35.003082 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #129 | Started Training: True
+2018-05-18 13:39:26.027480 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #130 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000270523
+Policy Loss                      -0.61981
+Raw Policy Loss                  -0.61981
+Preactivation Policy Loss         0
+Q Predictions Mean                0.614026
+Q Predictions Std                 0.43053
+Q Predictions Max                 1.21579
+Q Predictions Min                -0.622029
+Q Targets Mean                    0.613332
+Q Targets Std                     0.429094
+Q Targets Max                     1.20534
+Q Targets Min                    -0.629221
+Bellman Errors Mean               0.000270523
+Bellman Errors Std                0.000933025
+Bellman Errors Max                0.00718422
+Bellman Errors Min                2.57893e-09
+Policy Action Mean                0.109926
+Policy Action Std                 0.972951
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         8
+Exploration Rewards Mean          0.00709577
+Exploration Rewards Std           0.00409551
+Exploration Rewards Max           0.015984
+Exploration Rewards Min          -0.00498861
+Exploration Returns Mean          1.13355
+Exploration Returns Std           0.130395
+Exploration Returns Max           1.25546
+Exploration Returns Min           0.839114
+Exploration Actions Mean          0.0814856
+Exploration Actions Std           0.827076
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  331840
+Number of env steps total    131000
+Number of rollouts total       2134
+Train Time (s)                   21.0978
+(Previous) Eval Time (s)          2.512e-06
+Sample Time (s)                  15.3986
+Epoch Time (s)                   36.4963
+Total Train Time (s)           7665.16
+Epoch                           130
+---------------------------  ----------------
+2018-05-18 13:43:44.050202 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #130 | Epoch Duration: 309.04697489738464
+2018-05-18 13:43:44.050305 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #130 | Started Training: True
+2018-05-18 13:44:20.592439 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #131 | Epoch Duration: 36.54203534126282
+2018-05-18 13:44:20.592632 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #131 | Started Training: True
+2018-05-18 13:44:56.566857 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #132 | Epoch Duration: 35.97408843040466
+2018-05-18 13:44:56.567031 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #132 | Started Training: True
+2018-05-18 13:45:33.583771 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #133 | Epoch Duration: 37.01662063598633
+2018-05-18 13:45:33.583946 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #133 | Started Training: True
+2018-05-18 13:46:11.176544 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #134 | Epoch Duration: 37.592482805252075
+2018-05-18 13:46:11.176713 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #134 | Started Training: True
+2018-05-18 13:46:48.161000 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #135 | Epoch Duration: 36.98416709899902
+2018-05-18 13:46:48.161209 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #135 | Started Training: True
+2018-05-18 13:47:25.084447 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #136 | Epoch Duration: 36.92310309410095
+2018-05-18 13:47:25.084621 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #136 | Started Training: True
+2018-05-18 13:48:02.844506 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #137 | Epoch Duration: 37.75976490974426
+2018-05-18 13:48:02.844675 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #137 | Started Training: True
+2018-05-18 13:48:39.200722 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #138 | Epoch Duration: 36.355918645858765
+2018-05-18 13:48:39.200949 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #138 | Started Training: True
+2018-05-18 13:49:16.673141 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #139 | Epoch Duration: 37.47203063964844
+2018-05-18 13:49:16.673362 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #139 | Started Training: True
+2018-05-18 13:50:08.459260 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #140 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000249627
+Policy Loss                      -0.661088
+Raw Policy Loss                  -0.661088
+Preactivation Policy Loss         0
+Q Predictions Mean                0.654969
+Q Predictions Std                 0.408777
+Q Predictions Max                 1.1998
+Q Predictions Min                -0.55461
+Q Targets Mean                    0.654162
+Q Targets Std                     0.407565
+Q Targets Max                     1.20226
+Q Targets Min                    -0.549745
+Bellman Errors Mean               0.000249627
+Bellman Errors Std                0.000925565
+Bellman Errors Max                0.00980162
+Bellman Errors Min                4.30001e-08
+Policy Action Mean                0.103657
+Policy Action Std                 0.972862
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00704111
+Exploration Rewards Std           0.00412595
+Exploration Rewards Max           0.0161422
+Exploration Rewards Min          -0.00312613
+Exploration Returns Mean          1.09255
+Exploration Returns Std           0.0903955
+Exploration Returns Max           1.1939
+Exploration Returns Min           0.911581
+Exploration Actions Mean          0.0878311
+Exploration Actions Std           0.825498
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  341840
+Number of env steps total    141000
+Number of rollouts total       2197
+Train Time (s)                   21.8962
+(Previous) Eval Time (s)          2.532e-06
+Sample Time (s)                  15.071
+Epoch Time (s)                   36.9671
+Total Train Time (s)           8260.69
+Epoch                           140
+---------------------------  ----------------
+2018-05-18 13:53:39.772800 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #140 | Epoch Duration: 263.09932351112366
+2018-05-18 13:53:39.772905 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #140 | Started Training: True
+2018-05-18 13:54:16.388940 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #141 | Epoch Duration: 36.61594033241272
+2018-05-18 13:54:16.389109 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #141 | Started Training: True
+2018-05-18 13:54:53.157094 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #142 | Epoch Duration: 36.76786017417908
+2018-05-18 13:54:53.157306 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #142 | Started Training: True
+2018-05-18 13:55:31.676021 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #143 | Epoch Duration: 38.518580198287964
+2018-05-18 13:55:31.676194 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #143 | Started Training: True
+2018-05-18 13:56:08.232594 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #144 | Epoch Duration: 36.55627512931824
+2018-05-18 13:56:08.232758 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #144 | Started Training: True
+2018-05-18 13:56:45.766086 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #145 | Epoch Duration: 37.53321385383606
+2018-05-18 13:56:45.766297 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #145 | Started Training: True
+2018-05-18 13:57:22.902573 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #146 | Epoch Duration: 37.13612151145935
+2018-05-18 13:57:22.902784 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #146 | Started Training: True
+2018-05-18 13:57:58.656201 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #147 | Epoch Duration: 35.753257751464844
+2018-05-18 13:57:58.656432 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #147 | Started Training: True
+2018-05-18 13:58:35.585298 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #148 | Epoch Duration: 36.92870116233826
+2018-05-18 13:58:35.585499 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #148 | Started Training: True
+2018-05-18 13:59:12.812349 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #149 | Epoch Duration: 37.226693868637085
+2018-05-18 13:59:12.812525 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #149 | Started Training: True
+2018-05-18 14:00:04.688583 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #150 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.0001312
+Policy Loss                      -0.694587
+Raw Policy Loss                  -0.694587
+Preactivation Policy Loss         0
+Q Predictions Mean                0.68898
+Q Predictions Std                 0.413249
+Q Predictions Max                 1.19596
+Q Predictions Min                -0.499813
+Q Targets Mean                    0.688656
+Q Targets Std                     0.414612
+Q Targets Max                     1.19384
+Q Targets Min                    -0.516675
+Bellman Errors Mean               0.0001312
+Bellman Errors Std                0.000239591
+Bellman Errors Max                0.00127721
+Bellman Errors Min                1.43533e-10
+Policy Action Mean                0.106859
+Policy Action Std                 0.971079
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00711177
+Exploration Rewards Std           0.00413091
+Exploration Rewards Max           0.0159361
+Exploration Rewards Min          -0.00309661
+Exploration Returns Mean          1.13687
+Exploration Returns Std           0.134801
+Exploration Returns Max           1.24554
+Exploration Returns Min           0.819644
+Exploration Actions Mean          0.074506
+Exploration Actions Std           0.829081
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  351840
+Number of env steps total    151000
+Number of rollouts total       2263
+Train Time (s)                   21.9436
+(Previous) Eval Time (s)          2.039e-06
+Sample Time (s)                  14.879
+Epoch Time (s)                   36.8226
+Total Train Time (s)           8903.01
+Epoch                           150
+---------------------------  ----------------
+2018-05-18 14:04:22.294088 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #150 | Epoch Duration: 309.4814541339874
+2018-05-18 14:04:22.294194 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #150 | Started Training: True
+2018-05-18 14:04:59.321097 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #151 | Epoch Duration: 37.02680420875549
+2018-05-18 14:04:59.321306 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #151 | Started Training: True
+2018-05-18 14:05:35.994105 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #152 | Epoch Duration: 36.67265725135803
+2018-05-18 14:05:35.994323 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #152 | Started Training: True
+2018-05-18 14:06:12.796679 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #153 | Epoch Duration: 36.80221104621887
+2018-05-18 14:06:12.796847 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #153 | Started Training: True
+2018-05-18 14:06:49.623622 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #154 | Epoch Duration: 36.826655626297
+2018-05-18 14:06:49.623817 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #154 | Started Training: True
+2018-05-18 14:07:27.128104 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #155 | Epoch Duration: 37.50414681434631
+2018-05-18 14:07:27.128267 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #155 | Started Training: True
+2018-05-18 14:08:05.194472 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #156 | Epoch Duration: 38.066086769104004
+2018-05-18 14:08:05.194681 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #156 | Started Training: True
+2018-05-18 14:08:42.136684 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #157 | Epoch Duration: 36.94185137748718
+2018-05-18 14:08:42.136855 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #157 | Started Training: True
+2018-05-18 14:09:18.584890 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #158 | Epoch Duration: 36.44791293144226
+2018-05-18 14:09:18.585104 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #158 | Started Training: True
+2018-05-18 14:09:55.024547 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #159 | Epoch Duration: 36.43929314613342
+2018-05-18 14:09:55.024760 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #159 | Started Training: True
+2018-05-18 14:10:47.664361 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #160 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000136979
+Policy Loss                      -0.753804
+Raw Policy Loss                  -0.753804
+Preactivation Policy Loss         0
+Q Predictions Mean                0.748141
+Q Predictions Std                 0.369161
+Q Predictions Max                 1.18484
+Q Predictions Min                -0.576822
+Q Targets Mean                    0.746805
+Q Targets Std                     0.36957
+Q Targets Max                     1.18731
+Q Targets Min                    -0.596942
+Bellman Errors Mean               0.000136979
+Bellman Errors Std                0.000275716
+Bellman Errors Max                0.00210785
+Bellman Errors Min                3.21666e-08
+Policy Action Mean                0.110597
+Policy Action Std                 0.966859
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00698587
+Exploration Rewards Std           0.00408836
+Exploration Rewards Max           0.0161501
+Exploration Rewards Min          -0.00326949
+Exploration Returns Mean          1.0863
+Exploration Returns Std           0.0924384
+Exploration Returns Max           1.1656
+Exploration Returns Min           0.901889
+Exploration Actions Mean          0.0834404
+Exploration Actions Std           0.816954
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  361840
+Number of env steps total    161000
+Number of rollouts total       2328
+Train Time (s)                   21.4381
+(Previous) Eval Time (s)          2.67601e-06
+Sample Time (s)                  15.6755
+Epoch Time (s)                   37.1137
+Total Train Time (s)           9497.78
+Epoch                           160
+---------------------------  ----------------
+2018-05-18 14:14:17.259144 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #160 | Epoch Duration: 262.23426699638367
+2018-05-18 14:14:17.259270 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #160 | Started Training: True
+2018-05-18 14:14:54.710683 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #161 | Epoch Duration: 37.45130157470703
+2018-05-18 14:14:54.710898 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #161 | Started Training: True
+2018-05-18 14:15:30.378780 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #162 | Epoch Duration: 35.66773295402527
+2018-05-18 14:15:30.378995 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #162 | Started Training: True
+2018-05-18 14:16:07.432164 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #163 | Epoch Duration: 37.05301833152771
+2018-05-18 14:16:07.432391 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #163 | Started Training: True
+2018-05-18 14:16:46.045266 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #164 | Epoch Duration: 38.61272048950195
+2018-05-18 14:16:46.045483 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #164 | Started Training: True
+2018-05-18 14:17:23.001389 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #165 | Epoch Duration: 36.95575308799744
+2018-05-18 14:17:23.001610 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #165 | Started Training: True
+2018-05-18 14:18:00.533136 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #166 | Epoch Duration: 37.53138518333435
+2018-05-18 14:18:00.533298 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #166 | Started Training: True
+2018-05-18 14:18:38.253774 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #167 | Epoch Duration: 37.72036814689636
+2018-05-18 14:18:38.253943 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #167 | Started Training: True
+2018-05-18 14:19:15.331290 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #168 | Epoch Duration: 37.077226400375366
+2018-05-18 14:19:15.331490 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #168 | Started Training: True
+2018-05-18 14:19:52.216295 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #169 | Epoch Duration: 36.88468408584595
+2018-05-18 14:19:52.216490 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #169 | Started Training: True
+2018-05-18 14:20:45.456827 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #170 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000216797
+Policy Loss                      -0.648767
+Raw Policy Loss                  -0.648767
+Preactivation Policy Loss         0
+Q Predictions Mean                0.643678
+Q Predictions Std                 0.454918
+Q Predictions Max                 1.20419
+Q Predictions Min                -0.624709
+Q Targets Mean                    0.643256
+Q Targets Std                     0.453817
+Q Targets Max                     1.20332
+Q Targets Min                    -0.572889
+Bellman Errors Mean               0.000216797
+Bellman Errors Std                0.00062536
+Bellman Errors Max                0.005673
+Bellman Errors Min                1.70392e-10
+Policy Action Mean                0.108398
+Policy Action Std                 0.973626
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00709439
+Exploration Rewards Std           0.00421525
+Exploration Rewards Max           0.0159833
+Exploration Rewards Min          -0.00396139
+Exploration Returns Mean          1.10791
+Exploration Returns Std           0.102004
+Exploration Returns Max           1.24077
+Exploration Returns Min           0.909609
+Exploration Actions Mean          0.0878544
+Exploration Actions Std           0.829499
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  371840
+Number of env steps total    171000
+Number of rollouts total       2393
+Train Time (s)                   21.6017
+(Previous) Eval Time (s)          2.37901e-06
+Sample Time (s)                  15.82
+Epoch Time (s)                   37.4217
+Total Train Time (s)          10094.1
+Epoch                           170
+---------------------------  ----------------
+2018-05-18 14:24:13.736794 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #170 | Epoch Duration: 261.52017736434937
+2018-05-18 14:24:13.736900 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #170 | Started Training: True
+2018-05-18 14:24:50.070953 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #171 | Epoch Duration: 36.333951473236084
+2018-05-18 14:24:50.071156 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #171 | Started Training: True
+2018-05-18 14:25:27.541200 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #172 | Epoch Duration: 37.46987819671631
+2018-05-18 14:25:27.541362 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #172 | Started Training: True
+2018-05-18 14:26:03.824140 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #173 | Epoch Duration: 36.28266143798828
+2018-05-18 14:26:03.824338 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #173 | Started Training: True
+2018-05-18 14:26:39.445626 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #174 | Epoch Duration: 35.62116765975952
+2018-05-18 14:26:39.445852 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #174 | Started Training: True
+2018-05-18 14:27:18.245169 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #175 | Epoch Duration: 38.79916453361511
+2018-05-18 14:27:18.245384 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #175 | Started Training: True
+2018-05-18 14:27:55.112762 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #176 | Epoch Duration: 36.86722803115845
+2018-05-18 14:27:55.112949 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #176 | Started Training: True
+2018-05-18 14:28:31.604540 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #177 | Epoch Duration: 36.49146556854248
+2018-05-18 14:28:31.604702 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #177 | Started Training: True
+2018-05-18 14:29:07.533817 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #178 | Epoch Duration: 35.92900037765503
+2018-05-18 14:29:07.534016 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #178 | Started Training: True
+2018-05-18 14:29:44.959305 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #179 | Epoch Duration: 37.4251549243927
+2018-05-18 14:29:44.959483 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #179 | Started Training: True
+2018-05-18 14:30:38.015087 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #180 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000249631
+Policy Loss                      -0.621268
+Raw Policy Loss                  -0.621268
+Preactivation Policy Loss         0
+Q Predictions Mean                0.617012
+Q Predictions Std                 0.43647
+Q Predictions Max                 1.17775
+Q Predictions Min                -0.634111
+Q Targets Mean                    0.616567
+Q Targets Std                     0.435431
+Q Targets Max                     1.18395
+Q Targets Min                    -0.623811
+Bellman Errors Mean               0.000249631
+Bellman Errors Std                0.00143616
+Bellman Errors Max                0.0162114
+Bellman Errors Min                3.36346e-09
+Policy Action Mean                0.110071
+Policy Action Std                 0.974754
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         4
+Exploration Rewards Mean          0.00713329
+Exploration Rewards Std           0.00405411
+Exploration Rewards Max           0.0159618
+Exploration Rewards Min          -0.00306842
+Exploration Returns Mean          1.17343
+Exploration Returns Std           0.0872162
+Exploration Returns Max           1.31612
+Exploration Returns Min           1.10152
+Exploration Actions Mean          0.0693533
+Exploration Actions Std           0.829088
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  381840
+Number of env steps total    181000
+Number of rollouts total       2455
+Train Time (s)                   21.2098
+(Previous) Eval Time (s)          2.192e-06
+Sample Time (s)                  15.5787
+Epoch Time (s)                   36.7886
+Total Train Time (s)          10710.7
+Epoch                           180
+---------------------------  ----------------
+2018-05-18 14:34:30.535668 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #180 | Epoch Duration: 285.57606863975525
+2018-05-18 14:34:30.535773 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #180 | Started Training: True
+2018-05-18 14:35:07.574468 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #181 | Epoch Duration: 37.03859615325928
+2018-05-18 14:35:07.574709 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #181 | Started Training: True
+2018-05-18 14:35:44.688317 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #182 | Epoch Duration: 37.11345815658569
+2018-05-18 14:35:44.689086 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #182 | Started Training: True
+2018-05-18 14:36:21.188047 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #183 | Epoch Duration: 36.49877309799194
+2018-05-18 14:36:21.188220 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #183 | Started Training: True
+2018-05-18 14:36:58.048067 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #184 | Epoch Duration: 36.85972499847412
+2018-05-18 14:36:58.048275 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #184 | Started Training: True
+2018-05-18 14:37:35.380212 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #185 | Epoch Duration: 37.33181047439575
+2018-05-18 14:37:35.380422 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #185 | Started Training: True
+2018-05-18 14:38:12.980022 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #186 | Epoch Duration: 37.599477767944336
+2018-05-18 14:38:12.980201 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #186 | Started Training: True
+2018-05-18 14:38:49.281615 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #187 | Epoch Duration: 36.301265001297
+2018-05-18 14:38:49.281901 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #187 | Started Training: True
+2018-05-18 14:39:27.168012 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #188 | Epoch Duration: 37.88590741157532
+2018-05-18 14:39:27.168204 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #188 | Started Training: True
+2018-05-18 14:40:03.757220 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #189 | Epoch Duration: 36.58886408805847
+2018-05-18 14:40:03.757427 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #189 | Started Training: True
+2018-05-18 14:40:57.277494 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #190 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000206792
+Policy Loss                      -0.672927
+Raw Policy Loss                  -0.672927
+Preactivation Policy Loss         0
+Q Predictions Mean                0.665341
+Q Predictions Std                 0.437585
+Q Predictions Max                 1.28789
+Q Predictions Min                -0.553228
+Q Targets Mean                    0.664941
+Q Targets Std                     0.437901
+Q Targets Max                     1.30698
+Q Targets Min                    -0.524991
+Bellman Errors Mean               0.000206792
+Bellman Errors Std                0.000757917
+Bellman Errors Max                0.00780186
+Bellman Errors Min                4.5279e-10
+Policy Action Mean                0.0873358
+Policy Action Std                 0.973172
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         9
+Exploration Rewards Mean          0.00712891
+Exploration Rewards Std           0.00430753
+Exploration Rewards Max           0.0175303
+Exploration Rewards Min          -0.00411971
+Exploration Returns Mean          1.10894
+Exploration Returns Std           0.087213
+Exploration Returns Max           1.19329
+Exploration Returns Min           0.883223
+Exploration Actions Mean          0.078945
+Exploration Actions Std           0.829952
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  391840
+Number of env steps total    191000
+Number of rollouts total       2521
+Train Time (s)                   20.5246
+(Previous) Eval Time (s)          2.62899e-06
+Sample Time (s)                  16.4437
+Epoch Time (s)                   36.9684
+Total Train Time (s)          11306.8
+Epoch                           190
+---------------------------  ----------------
+2018-05-18 14:44:26.889547 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #190 | Epoch Duration: 263.13198137283325
+2018-05-18 14:44:26.889651 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #190 | Started Training: True
+2018-05-18 14:45:04.200955 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #191 | Epoch Duration: 37.31120705604553
+2018-05-18 14:45:04.201165 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #191 | Started Training: True
+2018-05-18 14:45:40.848398 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #192 | Epoch Duration: 36.64709210395813
+2018-05-18 14:45:40.848612 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #192 | Started Training: True
+2018-05-18 14:46:16.624546 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #193 | Epoch Duration: 35.77580690383911
+2018-05-18 14:46:16.624754 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #193 | Started Training: True
+2018-05-18 14:46:53.769154 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #194 | Epoch Duration: 37.1442768573761
+2018-05-18 14:46:53.769327 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #194 | Started Training: True
+2018-05-18 14:47:30.341947 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #195 | Epoch Duration: 36.57248067855835
+2018-05-18 14:47:30.342122 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #195 | Started Training: True
+2018-05-18 14:48:07.216988 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #196 | Epoch Duration: 36.87473964691162
+2018-05-18 14:48:07.217254 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #196 | Started Training: True
+2018-05-18 14:48:45.161982 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #197 | Epoch Duration: 37.94451880455017
+2018-05-18 14:48:45.162148 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #197 | Started Training: True
+2018-05-18 14:49:21.664550 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #198 | Epoch Duration: 36.50228238105774
+2018-05-18 14:49:21.664755 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #198 | Started Training: True
+2018-05-18 14:49:59.095340 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #199 | Epoch Duration: 37.430434703826904
+2018-05-18 14:49:59.095548 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #199 | Started Training: True
+2018-05-18 14:50:51.964501 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #200 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000123774
+Policy Loss                      -0.697359
+Raw Policy Loss                  -0.697359
+Preactivation Policy Loss         0
+Q Predictions Mean                0.693166
+Q Predictions Std                 0.392636
+Q Predictions Max                 1.19176
+Q Predictions Min                -0.615725
+Q Targets Mean                    0.691543
+Q Targets Std                     0.393759
+Q Targets Max                     1.18338
+Q Targets Min                    -0.621762
+Bellman Errors Mean               0.000123774
+Bellman Errors Std                0.000264295
+Bellman Errors Max                0.00209815
+Bellman Errors Min                1.13412e-09
+Policy Action Mean                0.112104
+Policy Action Std                 0.967826
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         5
+Exploration Rewards Mean          0.00706092
+Exploration Rewards Std           0.00401652
+Exploration Rewards Max           0.0184718
+Exploration Rewards Min          -0.00388127
+Exploration Returns Mean          1.13822
+Exploration Returns Std           0.0526534
+Exploration Returns Max           1.20268
+Exploration Returns Min           1.0704
+Exploration Actions Mean          0.0593171
+Exploration Actions Std           0.820052
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  401840
+Number of env steps total    201000
+Number of rollouts total       2585
+Train Time (s)                   20.7556
+(Previous) Eval Time (s)          2.837e-06
+Sample Time (s)                  15.3285
+Epoch Time (s)                   36.0841
+Total Train Time (s)          11899.3
+Epoch                           200
+---------------------------  ----------------
+2018-05-18 14:54:19.620987 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #200 | Epoch Duration: 260.5253109931946
+2018-05-18 14:54:19.621091 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #200 | Started Training: True
+2018-05-18 14:54:58.400181 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #201 | Epoch Duration: 38.778990268707275
+2018-05-18 14:54:58.400400 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #201 | Started Training: True
+2018-05-18 14:55:35.077829 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #202 | Epoch Duration: 36.67730402946472
+2018-05-18 14:55:35.078047 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #202 | Started Training: True
+2018-05-18 14:56:11.735121 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #203 | Epoch Duration: 36.656925439834595
+2018-05-18 14:56:11.735350 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #203 | Started Training: True
+2018-05-18 14:56:48.410953 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #204 | Epoch Duration: 36.67545557022095
+2018-05-18 14:56:48.411175 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #204 | Started Training: True
+2018-05-18 14:57:25.820756 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #205 | Epoch Duration: 37.40938401222229
+2018-05-18 14:57:25.820980 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #205 | Started Training: True
+2018-05-18 14:58:02.435867 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #206 | Epoch Duration: 36.614723920822144
+2018-05-18 14:58:02.436070 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #206 | Started Training: True
+2018-05-18 14:58:39.993965 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #207 | Epoch Duration: 37.557759523391724
+2018-05-18 14:58:39.994128 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #207 | Started Training: True
+2018-05-18 14:59:16.712971 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #208 | Epoch Duration: 36.71872806549072
+2018-05-18 14:59:16.713203 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #208 | Started Training: True
+2018-05-18 14:59:53.145027 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #209 | Epoch Duration: 36.43165445327759
+2018-05-18 14:59:53.145199 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #209 | Started Training: True
+2018-05-18 15:00:47.318373 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #210 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000170586
+Policy Loss                      -0.67158
+Raw Policy Loss                  -0.67158
+Preactivation Policy Loss         0
+Q Predictions Mean                0.66742
+Q Predictions Std                 0.448528
+Q Predictions Max                 1.24674
+Q Predictions Min                -0.638346
+Q Targets Mean                    0.667714
+Q Targets Std                     0.446444
+Q Targets Max                     1.23375
+Q Targets Min                    -0.621345
+Bellman Errors Mean               0.000170586
+Bellman Errors Std                0.000445888
+Bellman Errors Max                0.00318537
+Bellman Errors Min                2.14488e-09
+Policy Action Mean                0.100749
+Policy Action Std                 0.972772
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         4
+Exploration Rewards Mean          0.00703156
+Exploration Rewards Std           0.00408848
+Exploration Rewards Max           0.0174024
+Exploration Rewards Min          -0.0038862
+Exploration Returns Mean          1.07759
+Exploration Returns Std           0.161058
+Exploration Returns Max           1.25438
+Exploration Returns Min           0.835054
+Exploration Actions Mean          0.0858915
+Exploration Actions Std           0.835178
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  411840
+Number of env steps total    211000
+Number of rollouts total       2649
+Train Time (s)                   21.5108
+(Previous) Eval Time (s)          2.202e-06
+Sample Time (s)                  15.76
+Epoch Time (s)                   37.2708
+Total Train Time (s)          12494.7
+Epoch                           210
+---------------------------  ----------------
+2018-05-18 15:04:15.212074 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #210 | Epoch Duration: 262.06676292419434
+2018-05-18 15:04:15.212176 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #210 | Started Training: True
+2018-05-18 15:04:51.335021 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #211 | Epoch Duration: 36.12274622917175
+2018-05-18 15:04:51.335257 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #211 | Started Training: True
+2018-05-18 15:05:28.526070 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #212 | Epoch Duration: 37.19065809249878
+2018-05-18 15:05:28.526244 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #212 | Started Training: True
+2018-05-18 15:06:04.903263 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #213 | Epoch Duration: 36.376901388168335
+2018-05-18 15:06:04.903433 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #213 | Started Training: True
+2018-05-18 15:06:42.622085 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #214 | Epoch Duration: 37.71852970123291
+2018-05-18 15:06:42.623052 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #214 | Started Training: True
+2018-05-18 15:07:17.660711 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #215 | Epoch Duration: 35.037503480911255
+2018-05-18 15:07:17.660885 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #215 | Started Training: True
+2018-05-18 15:07:55.422780 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #216 | Epoch Duration: 37.76177453994751
+2018-05-18 15:07:55.422948 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #216 | Started Training: True
+2018-05-18 15:08:31.458012 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #217 | Epoch Duration: 36.034937381744385
+2018-05-18 15:08:31.458222 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #217 | Started Training: True
+2018-05-18 15:09:08.465292 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #218 | Epoch Duration: 37.006908893585205
+2018-05-18 15:09:08.465468 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #218 | Started Training: True
+2018-05-18 15:09:45.235242 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #219 | Epoch Duration: 36.76962494850159
+2018-05-18 15:09:45.235472 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #219 | Started Training: True
+2018-05-18 15:10:39.020268 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #220 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000791573
+Policy Loss                      -0.66098
+Raw Policy Loss                  -0.66098
+Preactivation Policy Loss         0
+Q Predictions Mean                0.65459
+Q Predictions Std                 0.437859
+Q Predictions Max                 1.18784
+Q Predictions Min                -0.609303
+Q Targets Mean                    0.65466
+Q Targets Std                     0.438101
+Q Targets Max                     1.20138
+Q Targets Min                    -0.627635
+Bellman Errors Mean               0.000791574
+Bellman Errors Std                0.00638412
+Bellman Errors Max                0.072267
+Bellman Errors Min                2.1837e-09
+Policy Action Mean                0.11301
+Policy Action Std                 0.971536
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00709336
+Exploration Rewards Std           0.00419526
+Exploration Rewards Max           0.0173816
+Exploration Rewards Min          -0.00286132
+Exploration Returns Mean          1.12784
+Exploration Returns Std           0.118017
+Exploration Returns Max           1.24128
+Exploration Returns Min           0.861712
+Exploration Actions Mean          0.0841039
+Exploration Actions Std           0.823026
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  421840
+Number of env steps total    221000
+Number of rollouts total       2714
+Train Time (s)                   20.6205
+(Previous) Eval Time (s)          2.945e-06
+Sample Time (s)                  15.5897
+Epoch Time (s)                   36.2102
+Total Train Time (s)          13089.9
+Epoch                           220
+---------------------------  ----------------
+2018-05-18 15:14:10.541212 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #220 | Epoch Duration: 265.3055980205536
+2018-05-18 15:14:10.541319 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #220 | Started Training: True
+2018-05-18 15:14:47.549118 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #221 | Epoch Duration: 37.00769853591919
+2018-05-18 15:14:47.549344 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #221 | Started Training: True
+2018-05-18 15:15:23.824461 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #222 | Epoch Duration: 36.27495241165161
+2018-05-18 15:15:23.824672 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #222 | Started Training: True
+2018-05-18 15:16:02.159966 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #223 | Epoch Duration: 38.33514356613159
+2018-05-18 15:16:02.160180 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #223 | Started Training: True
+2018-05-18 15:16:39.600582 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #224 | Epoch Duration: 37.44026708602905
+2018-05-18 15:16:39.600744 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #224 | Started Training: True
+2018-05-18 15:17:16.680843 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #225 | Epoch Duration: 37.07999110221863
+2018-05-18 15:17:16.681014 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #225 | Started Training: True
+2018-05-18 15:17:53.171593 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #226 | Epoch Duration: 36.49046993255615
+2018-05-18 15:17:53.171774 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #226 | Started Training: True
+2018-05-18 15:18:29.860251 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #227 | Epoch Duration: 36.68834328651428
+2018-05-18 15:18:29.860495 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #227 | Started Training: True
+2018-05-18 15:19:08.620426 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #228 | Epoch Duration: 38.759785175323486
+2018-05-18 15:19:08.620674 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #228 | Started Training: True
+2018-05-18 15:19:45.168790 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #229 | Epoch Duration: 36.547982931137085
+2018-05-18 15:19:45.169028 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #229 | Started Training: True
+2018-05-18 15:20:39.303844 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #230 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000157897
+Policy Loss                      -0.687666
+Raw Policy Loss                  -0.687666
+Preactivation Policy Loss         0
+Q Predictions Mean                0.682661
+Q Predictions Std                 0.378362
+Q Predictions Max                 1.26644
+Q Predictions Min                -0.443024
+Q Targets Mean                    0.68334
+Q Targets Std                     0.37702
+Q Targets Max                     1.26278
+Q Targets Min                    -0.481241
+Bellman Errors Mean               0.000157897
+Bellman Errors Std                0.000318453
+Bellman Errors Max                0.0021502
+Bellman Errors Min                4.96358e-09
+Policy Action Mean                0.105276
+Policy Action Std                 0.970201
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00678763
+Exploration Rewards Std           0.00389951
+Exploration Rewards Max           0.0152762
+Exploration Rewards Min          -0.00298925
+Exploration Returns Mean          1.02606
+Exploration Returns Std           0.1764
+Exploration Returns Max           1.23796
+Exploration Returns Min           0.782555
+Exploration Actions Mean          0.0875671
+Exploration Actions Std           0.825354
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  431840
+Number of env steps total    231000
+Number of rollouts total       2779
+Train Time (s)                   20.758
+(Previous) Eval Time (s)          2.84601e-06
+Sample Time (s)                  15.5489
+Epoch Time (s)                   36.307
+Total Train Time (s)          13690.2
+Epoch                           230
+---------------------------  ----------------
+2018-05-18 15:24:11.056172 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #230 | Epoch Duration: 265.887003660202
+2018-05-18 15:24:11.056277 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #230 | Started Training: True
+2018-05-18 15:24:49.681201 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #231 | Epoch Duration: 38.62483048439026
+2018-05-18 15:24:49.681367 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #231 | Started Training: True
+2018-05-18 15:25:27.165823 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #232 | Epoch Duration: 37.48434114456177
+2018-05-18 15:25:27.166073 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #232 | Started Training: True
+2018-05-18 15:26:03.048690 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #233 | Epoch Duration: 35.88244318962097
+2018-05-18 15:26:03.048862 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #233 | Started Training: True
+2018-05-18 15:26:40.381408 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #234 | Epoch Duration: 37.332428216934204
+2018-05-18 15:26:40.381570 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #234 | Started Training: True
+2018-05-18 15:27:16.702237 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #235 | Epoch Duration: 36.32055139541626
+2018-05-18 15:27:16.702462 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #235 | Started Training: True
+2018-05-18 15:27:53.276511 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #236 | Epoch Duration: 36.573893785476685
+2018-05-18 15:27:53.276732 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #236 | Started Training: True
+2018-05-18 15:28:30.795484 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #237 | Epoch Duration: 37.51860857009888
+2018-05-18 15:28:30.795655 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #237 | Started Training: True
+2018-05-18 15:29:08.366263 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #238 | Epoch Duration: 37.57048797607422
+2018-05-18 15:29:08.366472 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #238 | Started Training: True
+2018-05-18 15:29:46.183546 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #239 | Epoch Duration: 37.81692314147949
+2018-05-18 15:29:46.183764 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #239 | Started Training: True
+2018-05-18 15:30:41.697294 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #240 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.0010468
+Policy Loss                      -0.663421
+Raw Policy Loss                  -0.663421
+Preactivation Policy Loss         0
+Q Predictions Mean                0.65609
+Q Predictions Std                 0.415863
+Q Predictions Max                 1.18262
+Q Predictions Min                -0.520084
+Q Targets Mean                    0.655803
+Q Targets Std                     0.40947
+Q Targets Max                     1.1904
+Q Targets Min                    -0.501712
+Bellman Errors Mean               0.0010468
+Bellman Errors Std                0.00814141
+Bellman Errors Max                0.0903285
+Bellman Errors Min                9.79871e-09
+Policy Action Mean                0.113804
+Policy Action Std                 0.971263
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         5
+Exploration Rewards Mean          0.007101
+Exploration Rewards Std           0.00409793
+Exploration Rewards Max           0.0167802
+Exploration Rewards Min          -0.00269258
+Exploration Returns Mean          1.10491
+Exploration Returns Std           0.0292695
+Exploration Returns Max           1.13144
+Exploration Returns Min           1.06284
+Exploration Actions Mean          0.0824879
+Exploration Actions Std           0.823709
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  441840
+Number of env steps total    241000
+Number of rollouts total       2844
+Train Time (s)                   21.804
+(Previous) Eval Time (s)          2.631e-06
+Sample Time (s)                  15.5335
+Epoch Time (s)                   37.3375
+Total Train Time (s)          14291.6
+Epoch                           240
+---------------------------  ----------------
+2018-05-18 15:34:12.733465 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #240 | Epoch Duration: 266.5495636463165
+2018-05-18 15:34:12.733569 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #240 | Started Training: True
+2018-05-18 15:34:50.484467 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #241 | Epoch Duration: 37.750805616378784
+2018-05-18 15:34:50.484651 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #241 | Started Training: True
+2018-05-18 15:35:28.408203 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #242 | Epoch Duration: 37.923420667648315
+2018-05-18 15:35:28.408459 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #242 | Started Training: True
+2018-05-18 15:36:05.404111 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #243 | Epoch Duration: 36.99546241760254
+2018-05-18 15:36:05.404346 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #243 | Started Training: True
+2018-05-18 15:36:42.564522 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #244 | Epoch Duration: 37.16002917289734
+2018-05-18 15:36:42.564780 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #244 | Started Training: True
+2018-05-18 15:37:18.976457 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #245 | Epoch Duration: 36.41149067878723
+2018-05-18 15:37:18.976630 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #245 | Started Training: True
+2018-05-18 15:37:55.876549 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #246 | Epoch Duration: 36.89979600906372
+2018-05-18 15:37:55.876759 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #246 | Started Training: True
+2018-05-18 15:38:32.878423 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #247 | Epoch Duration: 37.00150513648987
+2018-05-18 15:38:32.878650 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #247 | Started Training: True
+2018-05-18 15:39:08.486571 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #248 | Epoch Duration: 35.60775685310364
+2018-05-18 15:39:08.486737 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #248 | Started Training: True
+2018-05-18 15:39:45.387091 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #249 | Epoch Duration: 36.900230169296265
+2018-05-18 15:39:45.387312 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #249 | Started Training: True
+2018-05-18 15:40:42.013622 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #250 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000198411
+Policy Loss                      -0.69005
+Raw Policy Loss                  -0.69005
+Preactivation Policy Loss         0
+Q Predictions Mean                0.684441
+Q Predictions Std                 0.418864
+Q Predictions Max                 1.18253
+Q Predictions Min                -0.750529
+Q Targets Mean                    0.682269
+Q Targets Std                     0.416429
+Q Targets Max                     1.17431
+Q Targets Min                    -0.748838
+Bellman Errors Mean               0.000198411
+Bellman Errors Std                0.000558614
+Bellman Errors Max                0.00479102
+Bellman Errors Min                7.5367e-09
+Policy Action Mean                0.0998202
+Policy Action Std                 0.973498
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00719496
+Exploration Rewards Std           0.00427193
+Exploration Rewards Max           0.0166831
+Exploration Rewards Min          -0.00389242
+Exploration Returns Mean          1.11727
+Exploration Returns Std           0.100696
+Exploration Returns Max           1.21932
+Exploration Returns Min           0.899038
+Exploration Actions Mean          0.0700542
+Exploration Actions Std           0.828736
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  451840
+Number of env steps total    251000
+Number of rollouts total       2909
+Train Time (s)                   21.9894
+(Previous) Eval Time (s)          3.11801e-06
+Sample Time (s)                  16.0384
+Epoch Time (s)                   38.0279
+Total Train Time (s)          14889.2
+Epoch                           250
+---------------------------  ----------------
+2018-05-18 15:44:10.461961 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #250 | Epoch Duration: 265.0745167732239
+2018-05-18 15:44:10.462068 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #250 | Started Training: True
+2018-05-18 15:44:47.418626 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #251 | Epoch Duration: 36.956459283828735
+2018-05-18 15:44:47.418843 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #251 | Started Training: True
+2018-05-18 15:45:23.513071 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #252 | Epoch Duration: 36.09407162666321
+2018-05-18 15:45:23.513285 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #252 | Started Training: True
+2018-05-18 15:46:02.015650 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #253 | Epoch Duration: 38.50222563743591
+2018-05-18 15:46:02.015870 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #253 | Started Training: True
+2018-05-18 15:46:38.652570 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #254 | Epoch Duration: 36.63654685020447
+2018-05-18 15:46:38.652810 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #254 | Started Training: True
+2018-05-18 15:47:15.725266 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #255 | Epoch Duration: 37.07228374481201
+2018-05-18 15:47:15.725432 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #255 | Started Training: True
+2018-05-18 15:47:52.238079 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #256 | Epoch Duration: 36.512531042099
+2018-05-18 15:47:52.238289 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #256 | Started Training: True
+2018-05-18 15:48:28.712306 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #257 | Epoch Duration: 36.473872423172
+2018-05-18 15:48:28.712507 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #257 | Started Training: True
+2018-05-18 15:49:06.121378 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #258 | Epoch Duration: 37.40875816345215
+2018-05-18 15:49:06.121549 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #258 | Started Training: True
+2018-05-18 15:49:42.998322 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #259 | Epoch Duration: 36.876649141311646
+2018-05-18 15:49:42.998519 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #259 | Started Training: True
+2018-05-18 15:50:38.551488 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #260 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000127175
+Policy Loss                      -0.709105
+Raw Policy Loss                  -0.709105
+Preactivation Policy Loss         0
+Q Predictions Mean                0.70419
+Q Predictions Std                 0.328399
+Q Predictions Max                 1.18536
+Q Predictions Min                -0.552606
+Q Targets Mean                    0.702236
+Q Targets Std                     0.33067
+Q Targets Max                     1.18727
+Q Targets Min                    -0.57687
+Bellman Errors Mean               0.000127175
+Bellman Errors Std                0.000296221
+Bellman Errors Max                0.00236089
+Bellman Errors Min                1.37597e-08
+Policy Action Mean                0.115954
+Policy Action Std                 0.972327
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         9
+Exploration Rewards Mean          0.00687645
+Exploration Rewards Std           0.00414316
+Exploration Rewards Max           0.0166175
+Exploration Rewards Min          -0.00310179
+Exploration Returns Mean          1.03223
+Exploration Returns Std           0.136429
+Exploration Returns Max           1.1939
+Exploration Returns Min           0.856907
+Exploration Actions Mean          0.0874713
+Exploration Actions Std           0.823902
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  461840
+Number of env steps total    261000
+Number of rollouts total       2975
+Train Time (s)                   21.5262
+(Previous) Eval Time (s)          2.67199e-06
+Sample Time (s)                  15.0695
+Epoch Time (s)                   36.5957
+Total Train Time (s)          15484.9
+Epoch                           260
+---------------------------  ----------------
+2018-05-18 15:54:06.365704 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #260 | Epoch Duration: 263.36705470085144
+2018-05-18 15:54:06.365807 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #260 | Started Training: True
+2018-05-18 15:54:44.475719 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #261 | Epoch Duration: 38.10981369018555
+2018-05-18 15:54:44.475982 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #261 | Started Training: True
+2018-05-18 15:55:21.923122 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #262 | Epoch Duration: 37.44694375991821
+2018-05-18 15:55:21.923310 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #262 | Started Training: True
+2018-05-18 15:55:58.780806 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #263 | Epoch Duration: 36.857375383377075
+2018-05-18 15:55:58.780999 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #263 | Started Training: True
+2018-05-18 15:56:35.089425 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #264 | Epoch Duration: 36.308308839797974
+2018-05-18 15:56:35.089607 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #264 | Started Training: True
+2018-05-18 15:57:13.388933 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #265 | Epoch Duration: 38.29918909072876
+2018-05-18 15:57:13.389140 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #265 | Started Training: True
+2018-05-18 15:57:49.820711 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #266 | Epoch Duration: 36.43141555786133
+2018-05-18 15:57:49.820939 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #266 | Started Training: True
+2018-05-18 15:58:26.845061 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #267 | Epoch Duration: 37.02398228645325
+2018-05-18 15:58:26.845228 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #267 | Started Training: True
+2018-05-18 15:59:04.113211 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #268 | Epoch Duration: 37.26786541938782
+2018-05-18 15:59:04.113382 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #268 | Started Training: True
+2018-05-18 15:59:39.924729 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #269 | Epoch Duration: 35.8112256526947
+2018-05-18 15:59:39.924946 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #269 | Started Training: True
+2018-05-18 16:00:35.749670 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #270 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000258396
+Policy Loss                      -0.657277
+Raw Policy Loss                  -0.657277
+Preactivation Policy Loss         0
+Q Predictions Mean                0.651892
+Q Predictions Std                 0.434459
+Q Predictions Max                 1.2065
+Q Predictions Min                -0.684983
+Q Targets Mean                    0.651376
+Q Targets Std                     0.433426
+Q Targets Max                     1.19046
+Q Targets Min                    -0.645051
+Bellman Errors Mean               0.000258396
+Bellman Errors Std                0.00067712
+Bellman Errors Max                0.005673
+Bellman Errors Min                1.23174e-08
+Policy Action Mean                0.105512
+Policy Action Std                 0.973595
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         8
+Exploration Rewards Mean          0.00704085
+Exploration Rewards Std           0.00407777
+Exploration Rewards Max           0.0161262
+Exploration Rewards Min          -0.00449992
+Exploration Returns Mean          1.11157
+Exploration Returns Std           0.174746
+Exploration Returns Max           1.27862
+Exploration Returns Min           0.83832
+Exploration Actions Mean          0.0805862
+Exploration Actions Std           0.833563
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  471840
+Number of env steps total    271000
+Number of rollouts total       3040
+Train Time (s)                   20.6223
+(Previous) Eval Time (s)          2.755e-06
+Sample Time (s)                  16.1027
+Epoch Time (s)                   36.725
+Total Train Time (s)          16085.9
+Epoch                           270
+---------------------------  ----------------
+2018-05-18 16:04:07.571827 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #270 | Epoch Duration: 267.6467363834381
+2018-05-18 16:04:07.571932 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #270 | Started Training: True
+2018-05-18 16:04:44.156584 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #271 | Epoch Duration: 36.584545373916626
+2018-05-18 16:04:44.156782 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #271 | Started Training: True
+2018-05-18 16:05:21.489267 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #272 | Epoch Duration: 37.332361459732056
+2018-05-18 16:05:21.489434 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #272 | Started Training: True
+2018-05-18 16:05:58.235593 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #273 | Epoch Duration: 36.74603867530823
+2018-05-18 16:05:58.235806 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #273 | Started Training: True
+2018-05-18 16:06:35.824811 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #274 | Epoch Duration: 37.588847160339355
+2018-05-18 16:06:35.825019 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #274 | Started Training: True
+2018-05-18 16:07:11.986240 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #275 | Epoch Duration: 36.16106414794922
+2018-05-18 16:07:11.986459 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #275 | Started Training: True
+2018-05-18 16:07:48.620489 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #276 | Epoch Duration: 36.63388967514038
+2018-05-18 16:07:48.620686 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #276 | Started Training: True
+2018-05-18 16:08:24.570592 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #277 | Epoch Duration: 35.94978666305542
+2018-05-18 16:08:24.570793 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #277 | Started Training: True
+2018-05-18 16:09:02.350113 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #278 | Epoch Duration: 37.77919888496399
+2018-05-18 16:09:02.350309 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #278 | Started Training: True
+2018-05-18 16:09:38.979458 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #279 | Epoch Duration: 36.62900638580322
+2018-05-18 16:09:38.979643 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #279 | Started Training: True
+2018-05-18 16:10:35.259261 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #280 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000869728
+Policy Loss                      -0.686181
+Raw Policy Loss                  -0.686181
+Preactivation Policy Loss         0
+Q Predictions Mean                0.679501
+Q Predictions Std                 0.401308
+Q Predictions Max                 1.16539
+Q Predictions Min                -0.668306
+Q Targets Mean                    0.677703
+Q Targets Std                     0.404236
+Q Targets Max                     1.1906
+Q Targets Min                    -0.644202
+Bellman Errors Mean               0.000869728
+Bellman Errors Std                0.00721429
+Bellman Errors Max                0.0819414
+Bellman Errors Min                1.79537e-08
+Policy Action Mean                0.112725
+Policy Action Std                 0.974854
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00696261
+Exploration Rewards Std           0.00409142
+Exploration Rewards Max           0.015274
+Exploration Rewards Min          -0.00345795
+Exploration Returns Mean          1.06992
+Exploration Returns Std           0.086259
+Exploration Returns Max           1.21008
+Exploration Returns Min           0.946389
+Exploration Actions Mean          0.082816
+Exploration Actions Std           0.829469
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  481840
+Number of env steps total    281000
+Number of rollouts total       3103
+Train Time (s)                   21.4464
+(Previous) Eval Time (s)          2.73201e-06
+Sample Time (s)                  15.0978
+Epoch Time (s)                   36.5442
+Total Train Time (s)          16684.4
+Epoch                           280
+---------------------------  ----------------
+2018-05-18 16:14:06.247310 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #280 | Epoch Duration: 267.26755928993225
+2018-05-18 16:14:06.247417 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #280 | Started Training: True
+2018-05-18 16:14:41.873737 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #281 | Epoch Duration: 35.62622284889221
+2018-05-18 16:14:41.873989 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #281 | Started Training: True
+2018-05-18 16:15:18.303915 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #282 | Epoch Duration: 36.429762840270996
+2018-05-18 16:15:18.304132 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #282 | Started Training: True
+2018-05-18 16:15:54.805534 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #283 | Epoch Duration: 36.50125336647034
+2018-05-18 16:15:54.805760 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #283 | Started Training: True
+2018-05-18 16:16:32.104224 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #284 | Epoch Duration: 37.29831671714783
+2018-05-18 16:16:32.104393 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #284 | Started Training: True
+2018-05-18 16:17:09.357452 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #285 | Epoch Duration: 37.25294280052185
+2018-05-18 16:17:09.357620 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #285 | Started Training: True
+2018-05-18 16:17:45.603779 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #286 | Epoch Duration: 36.24603986740112
+2018-05-18 16:17:45.603954 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #286 | Started Training: True
+2018-05-18 16:18:20.976528 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #287 | Epoch Duration: 35.37245488166809
+2018-05-18 16:18:20.976704 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #287 | Started Training: True
+2018-05-18 16:19:00.005368 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #288 | Epoch Duration: 39.028541564941406
+2018-05-18 16:19:00.005530 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #288 | Started Training: True
+2018-05-18 16:19:36.622281 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #289 | Epoch Duration: 36.616636514663696
+2018-05-18 16:19:36.622506 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #289 | Started Training: True
+2018-05-18 16:20:33.756457 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #290 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.00022318
+Policy Loss                      -0.703568
+Raw Policy Loss                  -0.703568
+Preactivation Policy Loss         0
+Q Predictions Mean                0.698657
+Q Predictions Std                 0.3909
+Q Predictions Max                 1.2035
+Q Predictions Min                -0.67776
+Q Targets Mean                    0.696355
+Q Targets Std                     0.389572
+Q Targets Max                     1.19623
+Q Targets Min                    -0.696075
+Bellman Errors Mean               0.00022318
+Bellman Errors Std                0.00076402
+Bellman Errors Max                0.0070356
+Bellman Errors Min                1.19513e-11
+Policy Action Mean                0.106814
+Policy Action Std                 0.972937
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         7
+Exploration Rewards Mean          0.00709691
+Exploration Rewards Std           0.00429223
+Exploration Rewards Max           0.0171855
+Exploration Rewards Min          -0.00403619
+Exploration Returns Mean          1.08583
+Exploration Returns Std           0.142392
+Exploration Returns Max           1.25456
+Exploration Returns Min           0.854528
+Exploration Actions Mean          0.0866096
+Exploration Actions Std           0.82856
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  491840
+Number of env steps total    291000
+Number of rollouts total       3169
+Train Time (s)                   21.5181
+(Previous) Eval Time (s)          2.56099e-06
+Sample Time (s)                  15.5472
+Epoch Time (s)                   37.0653
+Total Train Time (s)          17279.7
+Epoch                           290
+---------------------------  ----------------
+2018-05-18 16:24:01.738372 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #290 | Epoch Duration: 265.1157155036926
+2018-05-18 16:24:01.738476 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #290 | Started Training: True
+2018-05-18 16:24:39.724944 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #291 | Epoch Duration: 37.986369609832764
+2018-05-18 16:24:39.725163 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #291 | Started Training: True
+2018-05-18 16:25:15.756403 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #292 | Epoch Duration: 36.031097412109375
+2018-05-18 16:25:15.756570 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #292 | Started Training: True
+2018-05-18 16:25:54.161022 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #293 | Epoch Duration: 38.4043390750885
+2018-05-18 16:25:54.161240 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #293 | Started Training: True
+2018-05-18 16:26:29.576814 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #294 | Epoch Duration: 35.41543936729431
+2018-05-18 16:26:29.577021 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #294 | Started Training: True
+2018-05-18 16:27:07.797017 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #295 | Epoch Duration: 38.21984577178955
+2018-05-18 16:27:07.797256 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #295 | Started Training: True
+2018-05-18 16:27:44.058540 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #296 | Epoch Duration: 36.26113939285278
+2018-05-18 16:27:44.058721 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #296 | Started Training: True
+2018-05-18 16:28:20.179603 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #297 | Epoch Duration: 36.12075328826904
+2018-05-18 16:28:20.179805 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #297 | Started Training: True
+2018-05-18 16:28:56.878185 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #298 | Epoch Duration: 36.69826602935791
+2018-05-18 16:28:56.878352 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #298 | Started Training: True
+2018-05-18 16:29:34.548598 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #299 | Epoch Duration: 37.6701295375824
+2018-05-18 16:29:34.548803 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #299 | Started Training: True
+2018-05-18 16:30:31.267771 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #300 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.00502085
+Policy Loss                      -0.64123
+Raw Policy Loss                  -0.64123
+Preactivation Policy Loss         0
+Q Predictions Mean                0.633109
+Q Predictions Std                 0.41423
+Q Predictions Max                 1.19094
+Q Predictions Min                -0.553379
+Q Targets Mean                    0.630835
+Q Targets Std                     0.419475
+Q Targets Max                     1.18073
+Q Targets Min                    -0.594589
+Bellman Errors Mean               0.00502085
+Bellman Errors Std                0.0430424
+Bellman Errors Max                0.466003
+Bellman Errors Min                1.89576e-10
+Policy Action Mean                0.0960149
+Policy Action Std                 0.9757
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         8
+Exploration Rewards Mean          0.0070471
+Exploration Rewards Std           0.00419663
+Exploration Rewards Max           0.0169245
+Exploration Rewards Min          -0.00352305
+Exploration Returns Mean          1.0967
+Exploration Returns Std           0.116732
+Exploration Returns Max           1.24444
+Exploration Returns Min           0.813839
+Exploration Actions Mean          0.0840827
+Exploration Actions Std           0.82742
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  501840
+Number of env steps total    301000
+Number of rollouts total       3233
+Train Time (s)                   21.0584
+(Previous) Eval Time (s)          2.59401e-06
+Sample Time (s)                  15.1767
+Epoch Time (s)                   36.2351
+Total Train Time (s)          17880.1
+Epoch                           300
+---------------------------  ----------------
+2018-05-18 16:34:02.361060 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #300 | Epoch Duration: 267.8121383190155
+2018-05-18 16:34:02.361166 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #300 | Started Training: True
+2018-05-18 16:34:39.964023 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #301 | Epoch Duration: 37.602763175964355
+2018-05-18 16:34:39.964195 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #301 | Started Training: True
+2018-05-18 16:35:16.653798 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #302 | Epoch Duration: 36.68948006629944
+2018-05-18 16:35:16.654027 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #302 | Started Training: True
+2018-05-18 16:35:54.473297 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #303 | Epoch Duration: 37.81912803649902
+2018-05-18 16:35:54.473468 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #303 | Started Training: True
+2018-05-18 16:36:31.677057 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #304 | Epoch Duration: 37.20347356796265
+2018-05-18 16:36:31.677228 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #304 | Started Training: True
+2018-05-18 16:37:08.939573 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #305 | Epoch Duration: 37.262218952178955
+2018-05-18 16:37:08.939791 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #305 | Started Training: True
+2018-05-18 16:37:44.883100 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #306 | Epoch Duration: 35.94315719604492
+2018-05-18 16:37:44.883323 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #306 | Started Training: True
+2018-05-18 16:38:21.468682 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #307 | Epoch Duration: 36.58521056175232
+2018-05-18 16:38:21.468876 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #307 | Started Training: True
+2018-05-18 16:38:58.489917 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #308 | Epoch Duration: 37.02091574668884
+2018-05-18 16:38:58.490139 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #308 | Started Training: True
+2018-05-18 16:39:34.573993 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #309 | Epoch Duration: 36.08370232582092
+2018-05-18 16:39:34.574234 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #309 | Started Training: True
+2018-05-18 16:40:33.174116 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #310 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000202084
+Policy Loss                      -0.708627
+Raw Policy Loss                  -0.708627
+Preactivation Policy Loss         0
+Q Predictions Mean                0.702943
+Q Predictions Std                 0.392853
+Q Predictions Max                 1.33422
+Q Predictions Min                -0.50201
+Q Targets Mean                    0.703756
+Q Targets Std                     0.392971
+Q Targets Max                     1.37014
+Q Targets Min                    -0.496642
+Bellman Errors Mean               0.000202084
+Bellman Errors Std                0.00050531
+Bellman Errors Max                0.00394463
+Bellman Errors Min                7.02313e-09
+Policy Action Mean                0.11174
+Policy Action Std                 0.969849
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00722711
+Exploration Rewards Std           0.0042008
+Exploration Rewards Max           0.0174282
+Exploration Rewards Min          -0.00403291
+Exploration Returns Mean          1.15272
+Exploration Returns Std           0.0337981
+Exploration Returns Max           1.19135
+Exploration Returns Min           1.08777
+Exploration Actions Mean          0.0852235
+Exploration Actions Std           0.833067
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  511840
+Number of env steps total    311000
+Number of rollouts total       3297
+Train Time (s)                   22.1157
+(Previous) Eval Time (s)          2.799e-06
+Sample Time (s)                  15.6676
+Epoch Time (s)                   37.7834
+Total Train Time (s)          18478.8
+Epoch                           310
+---------------------------  ----------------
+2018-05-18 16:44:01.240961 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #310 | Epoch Duration: 266.6665692329407
+2018-05-18 16:44:01.241067 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #310 | Started Training: True
+2018-05-18 16:44:38.833152 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #311 | Epoch Duration: 37.59198188781738
+2018-05-18 16:44:38.833404 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #311 | Started Training: True
+2018-05-18 16:45:15.796423 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #312 | Epoch Duration: 36.96281957626343
+2018-05-18 16:45:15.796683 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #312 | Started Training: True
+2018-05-18 16:45:51.743047 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #313 | Epoch Duration: 35.94616985321045
+2018-05-18 16:45:51.743239 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #313 | Started Training: True
+2018-05-18 16:46:27.396004 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #314 | Epoch Duration: 35.65264010429382
+2018-05-18 16:46:27.396173 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #314 | Started Training: True
+2018-05-18 16:47:04.577221 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #315 | Epoch Duration: 37.18093013763428
+2018-05-18 16:47:04.577405 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #315 | Started Training: True
+2018-05-18 16:47:42.792408 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #316 | Epoch Duration: 38.21488332748413
+2018-05-18 16:47:42.792574 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #316 | Started Training: True
+2018-05-18 16:48:18.316837 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #317 | Epoch Duration: 35.524139165878296
+2018-05-18 16:48:18.317561 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #317 | Started Training: True
+2018-05-18 16:48:55.784762 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #318 | Epoch Duration: 37.467045068740845
+2018-05-18 16:48:55.784940 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #318 | Started Training: True
+2018-05-18 16:49:31.337246 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #319 | Epoch Duration: 35.552183628082275
+2018-05-18 16:49:31.337498 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #319 | Started Training: True
+2018-05-18 16:50:29.970701 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #320 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000355331
+Policy Loss                      -0.696262
+Raw Policy Loss                  -0.696262
+Preactivation Policy Loss         0
+Q Predictions Mean                0.690493
+Q Predictions Std                 0.432418
+Q Predictions Max                 1.1995
+Q Predictions Min                -0.655501
+Q Targets Mean                    0.689659
+Q Targets Std                     0.433252
+Q Targets Max                     1.20893
+Q Targets Min                    -0.66326
+Bellman Errors Mean               0.00035533
+Bellman Errors Std                0.0011714
+Bellman Errors Max                0.00887502
+Bellman Errors Min                4.57877e-10
+Policy Action Mean                0.0916987
+Policy Action Std                 0.973051
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         8
+Exploration Rewards Mean          0.00686493
+Exploration Rewards Std           0.00410496
+Exploration Rewards Max           0.0166194
+Exploration Rewards Min          -0.00383817
+Exploration Returns Mean          1.01944
+Exploration Returns Std           0.1417
+Exploration Returns Max           1.23717
+Exploration Returns Min           0.833161
+Exploration Actions Mean          0.0750878
+Exploration Actions Std           0.832902
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  521840
+Number of env steps total    321000
+Number of rollouts total       3363
+Train Time (s)                   21.5798
+(Previous) Eval Time (s)          2.92499e-06
+Sample Time (s)                  15.9514
+Epoch Time (s)                   37.5312
+Total Train Time (s)          19077.7
+Epoch                           320
+---------------------------  ----------------
+2018-05-18 16:54:00.426387 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #320 | Epoch Duration: 269.08871626853943
+2018-05-18 16:54:00.426490 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #320 | Started Training: True
+2018-05-18 16:54:38.221214 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #321 | Epoch Duration: 37.79462456703186
+2018-05-18 16:54:38.221439 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #321 | Started Training: True
+2018-05-18 16:55:14.826278 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #322 | Epoch Duration: 36.60468506813049
+2018-05-18 16:55:14.826492 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #322 | Started Training: True
+2018-05-18 16:55:53.288221 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #323 | Epoch Duration: 38.461591958999634
+2018-05-18 16:55:53.288455 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #323 | Started Training: True
+2018-05-18 16:56:29.800396 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #324 | Epoch Duration: 36.511770486831665
+2018-05-18 16:56:29.800564 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #324 | Started Training: True
+2018-05-18 16:57:06.109335 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #325 | Epoch Duration: 36.30864500999451
+2018-05-18 16:57:06.109554 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #325 | Started Training: True
+2018-05-18 16:57:42.208135 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #326 | Epoch Duration: 36.09843611717224
+2018-05-18 16:57:42.208304 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #326 | Started Training: True
+2018-05-18 16:58:18.791273 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #327 | Epoch Duration: 36.58284831047058
+2018-05-18 16:58:18.791441 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #327 | Started Training: True
+2018-05-18 16:58:55.137449 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #328 | Epoch Duration: 36.345885276794434
+2018-05-18 16:58:55.138177 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #328 | Started Training: True
+2018-05-18 16:59:31.896764 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #329 | Epoch Duration: 36.75842809677124
+2018-05-18 16:59:31.896936 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #329 | Started Training: True
+2018-05-18 17:00:29.827665 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #330 | Collecting samples for evaluation
+---------------------------  ----------------
+QF Loss                           0.000135659
+Policy Loss                      -0.729478
+Raw Policy Loss                  -0.729478
+Preactivation Policy Loss         0
+Q Predictions Mean                0.724427
+Q Predictions Std                 0.360976
+Q Predictions Max                 1.19894
+Q Predictions Min                -0.441998
+Q Targets Mean                    0.72364
+Q Targets Std                     0.360093
+Q Targets Max                     1.18996
+Q Targets Min                    -0.426723
+Bellman Errors Mean               0.000135659
+Bellman Errors Std                0.0002212
+Bellman Errors Max                0.00120494
+Bellman Errors Min                3.24022e-10
+Policy Action Mean                0.108148
+Policy Action Std                 0.968448
+Policy Action Max                 1
+Policy Action Min                -1
+Test Rewards Mean                 0.00726661
+Test Rewards Std                  0.00396215
+Test Rewards Max                  0.0153346
+Test Rewards Min                 -0.00320397
+Test Returns Mean                 1.19172
+Test Returns Std                  2.22045e-16
+Test Returns Max                  1.19172
+Test Returns Min                  1.19172
+Test Actions Mean                 0.0901356
+Test Actions Std                  0.970965
+Test Actions Max                  1
+Test Actions Min                 -1
+Num Paths                         6
+Exploration Rewards Mean          0.00705684
+Exploration Rewards Std           0.00411091
+Exploration Rewards Max           0.0162625
+Exploration Rewards Min          -0.00329685
+Exploration Returns Mean          1.0844
+Exploration Returns Std           0.10441
+Exploration Returns Max           1.23928
+Exploration Returns Min           0.911832
+Exploration Actions Mean          0.0807687
+Exploration Actions Std           0.827403
+Exploration Actions Max           1
+Exploration Actions Min          -1
+AverageReturn                     1.19172
+Number of train steps total  531840
+Number of env steps total    331000
+Number of rollouts total       3428
+Train Time (s)                   21.0627
+(Previous) Eval Time (s)          2.172e-06
+Sample Time (s)                  15.252
+Epoch Time (s)                   36.3146
+Total Train Time (s)          19675.2
+Epoch                           330
+---------------------------  ----------------
+2018-05-18 17:03:58.064623 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #330 | Epoch Duration: 266.1675772666931
+2018-05-18 17:03:58.064727 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #330 | Started Training: True
+2018-05-18 17:04:35.681172 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #331 | Epoch Duration: 37.616347789764404
+2018-05-18 17:04:35.681392 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #331 | Started Training: True
+2018-05-18 17:05:12.332607 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #332 | Epoch Duration: 36.651060342788696
+2018-05-18 17:05:12.332806 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #332 | Started Training: True
+2018-05-18 17:05:49.114486 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #333 | Epoch Duration: 36.78153896331787
+2018-05-18 17:05:49.114703 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #333 | Started Training: True
+2018-05-18 17:06:26.873252 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #334 | Epoch Duration: 37.758394718170166
+2018-05-18 17:06:26.874019 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #334 | Started Training: True
+2018-05-18 17:07:04.181849 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #335 | Epoch Duration: 37.3076491355896
+2018-05-18 17:07:04.182059 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #335 | Started Training: True
+2018-05-18 17:07:41.461565 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #336 | Epoch Duration: 37.27935719490051
+2018-05-18 17:07:41.461772 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #336 | Started Training: True
+2018-05-18 17:08:18.097840 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #337 | Epoch Duration: 36.635926246643066
+2018-05-18 17:08:18.098045 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #337 | Started Training: True
+2018-05-18 17:08:54.355063 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #338 | Epoch Duration: 36.25687789916992
+2018-05-18 17:08:54.355293 UTC | [name-of-experiment_2018_05_18_11_35_53_0000--s-0] Iteration #338 | Started Training: True
