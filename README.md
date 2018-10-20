@@ -53,13 +53,13 @@ python3 <path to method(ddpg/sac/td3) script>
 ## Downloading only this repository
 Run following command:
 ```
-git clone https://github.com/CMPE462-Spring2018-Bogazici/term-project-sak
+git clone https://github.com/simitii/Learn-to-Move-with-Deep-Reinforcement-Learning.git
 ```
 
 ## Downloading All Source Code
 Run following command:
 ```
-git clone --recursive https://github.com/CMPE462-Spring2018-Bogazici/term-project-sak
+git clone --recursive https://github.com/simitii/Learn-to-Move-with-Deep-Reinforcement-Learning.git
 ```
 
 ## Plan
